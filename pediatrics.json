@@ -25,6 +25,7 @@
                     "mfeConfig": {
                         "id": "081e837d-88e5-4b33-a810-bd505df6e78c",
                         "name": "CHILDREN",
+                        "permissionsSet": ["CREATE", "UPDATE", "DELETE", "SHARE", "SEND"],
                         "singularName": "CHILD",
                         "icons": {
                             "clientType": {
@@ -1153,6 +1154,7 @@
                     "mfeConfig": {
                         "id": "6aef7649-5015-4d71-8d3a-c77979cb5065",
                         "name": "CAREGIVERS",
+                        "permissionsSet": ["CREATE", "UPDATE", "DELETE", "SHARE", "SEND"],
                         "singularName": "CAREGIVER",
                         "icons": {
                             "clientType": {
