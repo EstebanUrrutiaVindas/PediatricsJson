@@ -12,7 +12,7 @@
             "mfeConfig": {
                 "id": "ebd71b1e-8ac8-4a09-8b97-3848d93eba71",
                 "name": "home",
-                "permissionsSet": ["MESSAGES_RECEIVED", "UPCOMING_BIRTHDAYS", "APPOINTMENTS", "ACCESS_HOME"]
+                "permissionsSet": ["MESSAGES_RECEIVED", "UPCOMING_BIRTHDAYS", "APPOINTMENTS"]
             }
         },
         {
@@ -107,6 +107,7 @@
                                     "subType": "COLUMN",
                                     "key": "patientInformationForm",
                                     "renderBackground": true,
+                                    "permissionsSet":"INFORMATION",
                                     "elements": [
                                         {
                                             "type": "CONTAINER",
@@ -412,6 +413,7 @@
                                     "subType": "LIST",
                                     "key": "consultHistoryList",
                                     "renderKey": "consultHistory",
+                                    "permissionsSet": "CONSULT",
                                     "includeSeparationLine": false,
                                     "actions": [
                                         "ADD",
@@ -566,6 +568,7 @@
                                     "subType": "ROW",
                                     "key": "vaccinesContainer",
                                     "renderKey": "vaccines",
+                                    "permissionsSet":"VACCINES",
                                     "includeSeparationLine": false,
                                     "actions": [
                                         "ADD",
@@ -707,6 +710,7 @@
                                     "subType": "COLUMN",
                                     "key": "patientBackgroundInformation",
                                     "renderBackground": true,
+                                    "permissionsSet":"BACKGROUND_INFORMATION",
                                     "elements": [
                                         {
                                             "type": "CONTAINER",
@@ -746,6 +750,7 @@
                                     "subType": "COLUMN",
                                     "renderBackground": true,
                                     "key": "consultRecord",
+                                    "permissionsSet":"GRAPHS",
                                     "elements": [
                                         {
                                             "type": "CONTAINER",
@@ -1308,7 +1313,7 @@
                 "mfeConfig": {
                     "id": "2ea0eb1a-391e-4559-80a7-d548b4342b27",
                     "name": "appointments",
-                    "permissionsSet": ["CREATE_APPOINTMENT", "CREATE_EXCEPTION", "ACCESS_PAPER_BIN", "ACCESS_SETTINGS", "DELETE_EVENT", "DELETE_EXCEPTION", "ACCESS_APPOINTMENTS"]
+                    "permissionsSet": ["CREATE_APPOINTMENT", "CREATE_EXCEPTION", "ACCESS_PAPER_BIN", "ACCESS_SETTINGS", "DELETE_EVENT", "DELETE_EXCEPTION"]
                 }
             },
             {
@@ -1318,7 +1323,7 @@
                 "mfeConfig": {
                     "id": "7fa9ff4e-1ce0-471f-aae7-70736d6525a3",
                     "name": "messages",
-                    "permissionsSet": ["SEND", "ACCESS_INBOX", "ACCESS_SENT","ACCESS_PAPER_BIN", "ACCESS_MESSAGES"]
+                    "permissionsSet": ["SEND", "ACCESS_INBOX", "ACCESS_SENT","ACCESS_PAPER_BIN"]
                 }
             }
         ],
@@ -1353,7 +1358,7 @@
             "mfeConfig": {
                 "id": "a9f83daa-fd8d-11ed-be56-0242ac120007",
                 "name": "users",
-                "permissionsSet": ["ADD_NEW_USER", "ACCESS_PERMISSIONS", "UPDATE_PERMISSIONS", "ACCESS_USERS"]
+                "permissionsSet": ["ADD_NEW_USER", "ACCESS_PERMISSIONS", "UPDATE_PERMISSIONS"]
             }
         },
         {
@@ -1363,7 +1368,7 @@
             "mfeConfig": {
                 "id": "f56a63f3-b5f2-429b-8ec8-6026a03edab4",
                 "name": "account",
-                "permissionsSet": ["UPDATE_CONFIGURATION", "ACCESS_ACCOUNT"]
+                "permissionsSet": ["UPDATE_CONFIGURATION"]
             }
         }
     ]
