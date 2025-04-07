@@ -287,6 +287,32 @@
 														{
 															"type":"CONTAINER",
 															"subType":"FIELDSET",
+															"title":"GESTATIONAL_AGE",
+															"renderHorizontal":true,
+															"flexConfiguration":{
+																"flex":"none",
+																"gap":5
+															},
+															"elements":[
+																{
+																	"type":"INPUT",
+																	"subType":"TEXT",
+																	"entry":"NUMERIC",
+																	"label":"WEEKS",
+																	"key":"gestationalAge"
+																},
+																{
+																	"type":"INPUT",
+																	"subType":"TEXT",
+																	"entry":"NUMERIC",
+																	"label":"DAYS",
+																	"key":"gestationalAgeDays"
+																}
+															]
+														},
+														{
+															"type":"CONTAINER",
+															"subType":"FIELDSET",
 															"title":"GESTATION_WEEKS",
 															"renderHorizontal":true,
 															"flexConfiguration":{
