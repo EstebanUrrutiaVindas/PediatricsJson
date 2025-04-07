@@ -286,7 +286,7 @@
                                              "flexConfiguration":{
                                                 "flex":"none",
                                                 "gap":5,
-                                                "maxWidth":"200px",
+                                                "maxWidth":"200px"
                                              },
                                              "elements":[
                                                 {
