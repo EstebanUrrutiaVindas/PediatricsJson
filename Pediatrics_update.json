@@ -262,23 +262,8 @@
                                              ]
                                           }
                                        ]
-                                    }
-                                 ]
-                              },
-                              {
-                                 "type":"CONTAINER",
-                                 "subType":"ROW",
-                                 "key":"patientInfoRow2",
-                                 "elements":[
-                                    {
-                                       "type":"CONTAINER",
-                                       "subType":"COLUMN",
-                                       "key":"fieldSetsColumn",
-                                       "flexConfiguration":{
-                                          "gap":10
-                                       },
-                                       "elements":[
-                                          { 
+                                    },
+                                    { 
                                              "type":"CONTAINER",
                                              "subType":"FIELDSET",
                                              "title":"GESTATIONAL_AGE",
@@ -303,7 +288,22 @@
                                                    "key":"gestationalDays"
                                                 }
                                              ]
-                                          },
+                                          }
+                                 ]
+                              },
+                              {
+                                 "type":"CONTAINER",
+                                 "subType":"ROW",
+                                 "key":"patientInfoRow2",
+                                 "elements":[
+                                    {
+                                       "type":"CONTAINER",
+                                       "subType":"COLUMN",
+                                       "key":"fieldSetsColumn",
+                                       "flexConfiguration":{
+                                          "gap":10
+                                       },
+                                       "elements":[
                                           {
                                              "type":"CONTAINER",
                                              "subType":"FIELDSET",
