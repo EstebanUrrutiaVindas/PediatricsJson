@@ -272,43 +272,6 @@
                                  "elements":[
                                           {
                                              "type":"CONTAINER",
-                                             "subType":"COLUMN",
-                                             "key":"fieldSetsColumn",
-                                             "flexConfiguration":{
-                                                "gap":10
-                                             },
-                                             "elements":[
-                                                { 
-                                             "type":"CONTAINER",
-                                             "subType":"FIELDSET",
-                                             "title":"GESTATIONAL_AGE",
-                                             "renderHorizontal":true,
-                                             "flexConfiguration":{
-                                                "flex":"none",
-                                                "gap":5,
-                                                "maxWidth":"200px"
-                                             },
-                                             "elements":[
-                                                {
-                                                   "type":"INPUT",
-                                                   "subType":"TEXT",
-                                                   "entry":"NUMERIC",
-                                                   "label":"WEEKS",
-                                                   "key":"gestationalAgeWeeks",
-                                                   "shortInput":true
-                                                },
-                                                {
-                                                   "type":"INPUT",
-                                                   "subType":"TEXT",
-                                                   "entry":"NUMERIC",
-                                                   "label":"DAYS",
-                                                   "key":"gestationalDays",
-                                                   "shortInput":true
-                                                }
-                                             ]
-                                          },
-                                          {
-                                             "type":"CONTAINER",
                                              "subType":"FIELDSET",
                                              "title":"GESTATION_WEEKS",
                                              "renderHorizontal":true,
@@ -415,6 +378,42 @@
                                                    "shortInput":true
                                                 }
                                              ]
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "type":"CONTAINER",
+                                       "subType":"COLUMN",
+                                       "key":"fieldSetsColumn",
+                                       "flexConfiguration":{
+                                          "gap":10
+                                       },
+                                       "elements":[
+                                          { 
+                                       "type":"CONTAINER",
+                                       "subType":"FIELDSET",
+                                       "title":"GESTATIONAL_AGE",
+                                       "renderHorizontal":true,
+                                       "flexConfiguration":{
+                                          "flex":"none",
+                                          "gap":5
+                                       },
+                                       "elements":[
+                                          {
+                                             "type":"INPUT",
+                                             "subType":"TEXT",
+                                             "entry":"NUMERIC",
+                                             "label":"WEEKS",
+                                             "key":"gestationalAgeWeeks",
+                                             "shortInput":true
+                                          },
+                                          {
+                                             "type":"INPUT",
+                                             "subType":"TEXT",
+                                             "entry":"NUMERIC",
+                                             "label":"DAYS",
+                                             "key":"gestationalDays",
+                                             "shortInput":true
                                           }
                                        ]
                                     },
