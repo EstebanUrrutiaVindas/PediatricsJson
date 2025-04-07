@@ -396,7 +396,8 @@
                                        "renderHorizontal":true,
                                        "flexConfiguration":{
                                           "flex":"none",
-                                          "gap":5
+                                          "gap":5,
+                                          "maxWidth":"200px"
                                        },
                                        "elements":[
                                           {
