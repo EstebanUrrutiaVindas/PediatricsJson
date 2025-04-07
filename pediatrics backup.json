@@ -180,13 +180,6 @@
 													"type":"INPUT",
 													"subType":"TEXT",
 													"entry":"NUMERIC",
-													"label":"GESTATIONAL_AGE",
-													"key":"gestationalAge"
-												},
-												{
-													"type":"INPUT",
-													"subType":"TEXT",
-													"entry":"NUMERIC",
 													"label":"BIRTH_WEIGHT",
 													"key":"birthWeight",
 													"suffix":"g"
