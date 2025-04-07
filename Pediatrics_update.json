@@ -191,14 +191,22 @@
                                              "subType":"TEXT",
                                              "entry":"NUMERIC",
                                              "label":"WEEKS",
-                                             "key":"gestationalAgeWeeks"
+                                             "key":"gestationalAgeWeeks",
+                                             "shortInput":true,
+                                             "translatePrefix":true,
+                                             "hideLabel":true,
+                                             "prefix":"WEEKS"
                                           },
                                           {
                                              "type":"INPUT",
                                              "subType":"TEXT",
                                              "entry":"NUMERIC",
                                              "label":"DAYS",
-                                             "key":"gestationalDays"
+                                             "key":"gestationalDays",
+                                             "shortInput":true,
+                                             "translatePrefix":true,
+                                             "hideLabel":true,
+                                             "prefix":"DAYS"
                                           }
                                        ]
                                     },
