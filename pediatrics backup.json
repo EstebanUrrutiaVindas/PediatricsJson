@@ -1341,6 +1341,15 @@
 					"id":"7fa9ff4e-1ce0-471f-aae7-70736d6525a3",
 					"name":"messages"
 				}
+			}, 
+			{
+				"icon":"fa-services",
+				"label":"SERVICES",
+				"goTo":"Services",
+				"mfeConfig":{
+					"id":"cdffc5f1-f4db-4bd7-8470-264bdf2d5dc4",
+					"name":"services"
+				}
 			}
 		],
 		{
