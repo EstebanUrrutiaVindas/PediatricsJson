@@ -1343,7 +1343,7 @@
 				}
 			}, 
 			{
-				"icon":"fa-services",
+				"icon":"fa-rectangle-list",
 				"label":"SERVICES",
 				"goTo":"Services",
 				"mfeConfig":{
