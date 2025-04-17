@@ -1009,6 +1009,86 @@
 										{
 											"type":"CONTAINER",
 											"subType":"COLUMN",
+											"key":"graphCC-girl",
+											"condition":"((new Date().getTime()) - currentData.birthDate) <= 94608000000 && currentData?.sex?.key === 'female'",
+											"elements":[
+												{
+													"type":"INPUT",
+													"subType":"POINT_PICKER",
+													"key":"ccGraph-girl",
+													"height":"10",
+													"source":"https://www.gob.mx/cms/uploads/image/file/665698/perimetro_cefa_lico_nin_a.png",
+													"markOptions":[
+														{
+															"icon":{
+																"fontFamily":"Material Symbols Outlined",
+																"unicode":""
+															},
+															"color":"black"
+														},
+														{
+															"icon":{
+																"fontFamily":"Material Symbols Outlined",
+																"unicode":""
+															},
+															"color":"#E3E3E3"
+														},
+														{
+															"icon":{
+																"fontFamily":"Material Symbols Outlined",
+																"unicode":""
+															},
+															"color":"#0067FF"
+														}
+													],
+													"label":"CC_GIRLS",
+													"autoDate":true
+												}
+											]
+										},
+										{
+											"type":"CONTAINER",
+											"subType":"COLUMN",
+											"key":"graphCC-boy",
+											"condition":"((new Date().getTime()) - currentData.birthDate) <= 94608000000 && currentData?.sex?.key === 'male'",
+											"elements":[
+												{
+													"type":"INPUT",
+													"subType":"POINT_PICKER",
+													"key":"ccGraph-boy",
+													"height":"10",
+													"source":"https://www.gob.mx/cms/uploads/image/file/665740/perimetro_cefa_lico_nin_os.png",
+													"markOptions":[
+														{
+															"icon":{
+																"fontFamily":"Material Symbols Outlined",
+																"unicode":""
+															},
+															"color":"black"
+														},
+														{
+															"icon":{
+																"fontFamily":"Material Symbols Outlined",
+																"unicode":""
+															},
+															"color":"#E3E3E3"
+														},
+														{
+															"icon":{
+																"fontFamily":"Material Symbols Outlined",
+																"unicode":""
+															},
+															"color":"#0067FF"
+														}
+													],
+													"label":"CC_BOYS",
+													"autoDate":true
+												}
+											]
+										},
+										{
+											"type":"CONTAINER",
+											"subType":"COLUMN",
 											"key":"ibmGeneral",
 											"condition":"((new Date().getTime()) - currentData.birthDate) <= 157788000000 && currentData?.sex?.key === 'male'",
 											"elements":[
