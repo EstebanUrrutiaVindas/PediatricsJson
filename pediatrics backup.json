@@ -499,6 +499,7 @@
 															"label":"CC",
 															"key":"cc",
 															"suffix":"cm",
+															"condition":"((new Date().getTime()) - currentData.birthDate) < 94608000000",
 															"style":{
 																"minWidth":"90px",
 																"maxWidth":"100px"
