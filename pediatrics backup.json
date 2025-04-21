@@ -1017,7 +1017,7 @@
 													"subType":"POINT_PICKER",
 													"key":"ccGraph-girl",
 													"height":"10",
-													"source":"https://www.gob.mx/cms/uploads/image/file/665698/perimetro_cefa_lico_nin_a.png",
+													"source":"https://sp-asset.s3.us-east-2.amazonaws.com/graphs/perimetro_cefa_lico_nin_a.png",
 													"markOptions":[
 														{
 															"icon":{
@@ -1057,7 +1057,7 @@
 													"subType":"POINT_PICKER",
 													"key":"ccGraph-boy",
 													"height":"10",
-													"source":"https://www.gob.mx/cms/uploads/image/file/665740/perimetro_cefa_lico_nin_os.png",
+													"source":"https://sp-asset.s3.us-east-2.amazonaws.com/graphs/perimetro_cefa_lico_nin_os.png",
 													"markOptions":[
 														{
 															"icon":{
