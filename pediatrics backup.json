@@ -873,6 +873,46 @@
 										{
 											"type":"CONTAINER",
 											"subType":"COLUMN",
+											"key":"graphCC-girl",
+											"condition":"((new Date().getTime()) - currentData.birthDate) <= 94608000000 && currentData?.sex?.key === 'female'",
+											"elements":[
+												{
+													"type":"INPUT",
+													"subType":"POINT_PICKER",
+													"key":"ccGraph-girl",
+													"height":"10",
+													"source":"https://sp-asset.s3.us-east-2.amazonaws.com/graphs/perimetro_cefa_lico_nin_a.png",
+													"markOptions":[
+														{
+															"icon":{
+																"fontFamily":"Material Symbols Outlined",
+																"unicode":""
+															},
+															"color":"black"
+														},
+														{
+															"icon":{
+																"fontFamily":"Material Symbols Outlined",
+																"unicode":""
+															},
+															"color":"#E3E3E3"
+														},
+														{
+															"icon":{
+																"fontFamily":"Material Symbols Outlined",
+																"unicode":""
+															},
+															"color":"#0067FF"
+														}
+													],
+													"label":"CC_GIRLS",
+													"autoDate":true
+												}
+											]
+										},
+										{
+											"type":"CONTAINER",
+											"subType":"COLUMN",
 											"key":"ibmGeneral",
 											"condition":"((new Date().getTime()) - currentData.birthDate) <= 157788000000 && currentData?.sex?.key === 'female'",
 											"elements":[
@@ -1002,46 +1042,6 @@
 														}
 													],
 													"label":"WEIGHT_FOR_HEIGHT_GIRLS",
-													"autoDate":true
-												}
-											]
-										},
-										{
-											"type":"CONTAINER",
-											"subType":"COLUMN",
-											"key":"graphCC-girl",
-											"condition":"((new Date().getTime()) - currentData.birthDate) <= 94608000000 && currentData?.sex?.key === 'female'",
-											"elements":[
-												{
-													"type":"INPUT",
-													"subType":"POINT_PICKER",
-													"key":"ccGraph-girl",
-													"height":"10",
-													"source":"https://sp-asset.s3.us-east-2.amazonaws.com/graphs/perimetro_cefa_lico_nin_a.png",
-													"markOptions":[
-														{
-															"icon":{
-																"fontFamily":"Material Symbols Outlined",
-																"unicode":""
-															},
-															"color":"black"
-														},
-														{
-															"icon":{
-																"fontFamily":"Material Symbols Outlined",
-																"unicode":""
-															},
-															"color":"#E3E3E3"
-														},
-														{
-															"icon":{
-																"fontFamily":"Material Symbols Outlined",
-																"unicode":""
-															},
-															"color":"#0067FF"
-														}
-													],
-													"label":"CC_GIRLS",
 													"autoDate":true
 												}
 											]
