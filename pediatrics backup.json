@@ -89,7 +89,8 @@
 							"typesSpec":[
 								"COSTARRICAN_NATIONAL",
 								"COSTARRICAN_RESIDENT",
-								"PASSPORT"
+								"PASSPORT",
+								"DIMEX"
 							],
 							"typesSpecAction":"INCLUDE",
 							"targets":{
@@ -1276,7 +1277,8 @@
 							"typesSpec":[
 								"COSTARRICAN_NATIONAL",
 								"COSTARRICAN_RESIDENT",
-								"PASSPORT"
+								"PASSPORT",
+								"DIMEX"
 							],
 							"typesSpecAction":"INCLUDE",
 							"targets":{
