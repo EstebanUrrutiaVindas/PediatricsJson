@@ -333,7 +333,7 @@
 																	"type":"CONTAINER",
 																	"subType":"FIELDSET",
 																	"title":"MUSCLE_MASS",
-																	"renderHorizontal":false , 
+																	"renderHorizontal":true, 
 																	"flexConfiguration":{
 																		"flex":"1",
 																		"gap":5
@@ -351,11 +351,7 @@
 																					"decimal":true,
 																					"key":"muscleMassTotal",
 																					"suffix":"%",
-																					"label":"TOTAL",
-																					"style":{
-																						"minWidth":"110px",
-																						"maxWidth":"150px"
-																					}
+																					"label":"TOTAL"
 																				},
 																				{
 																					"type":"INPUT",
@@ -418,114 +414,140 @@
 																	"type":"CONTAINER",
 																	"subType":"FIELDSET",
 																	"title":"BODY_FAT_PORCENTAGES",
-																	"renderHorizontal":false,
+																	"renderHorizontal":true,
 																	"flexConfiguration":{
 																		"flex":"1",
 																		"gap":5
 																	},
 																	"elements":[
 																		{
-																			"type":"INPUT",
-																			"subType":"TEXT",
-																			"entry":"NUMERIC",
-																			"decimal":true,
-																			"key":"bodyFatTotal",
-																			"suffix":"%",
-																			"label":"TOTAL"
+																			"type":"CONTAINER",
+																			"subType":"COLUMN",
+																			"renderBackground":true,
+																			"elements":[
+																				{
+																					"type":"INPUT",
+																					"subType":"TEXT",
+																					"entry":"NUMERIC",
+																					"decimal":true,
+																					"key":"bodyFatTotal",
+																					"suffix":"%",
+																					"label":"TOTAL"
+																				},
+																				{
+																					"type":"INPUT",
+																					"subType":"TEXT",
+																					"entry":"NUMERIC",
+																					"decimal":true,
+																					"key":"bodyFatRightArm",
+																					"suffix":"%",
+																					"label":"RIGHT_ARM"
+																				},
+																				{
+																					"type":"INPUT",
+																					"subType":"TEXT",
+																					"entry":"NUMERIC",
+																					"decimal":true,
+																					"key":"bodyFatLeftArm",
+																					"suffix":"%",
+																					"label":"LEFT_ARM"
+																				}
+																			]
 																		},
 																		{
-																			"type":"INPUT",
-																			"subType":"TEXT",
-																			"entry":"NUMERIC",
-																			"decimal":true,
-																			"key":"bodyFatRightArm",
-																			"suffix":"%",
-																			"label":"RIGHT_ARM"
-																		},
-																		{
-																			"type":"INPUT",
-																			"subType":"TEXT",
-																			"entry":"NUMERIC",
-																			"decimal":true,
-																			"key":"bodyFatLeftArm",
-																			"suffix":"%",
-																			"label":"LEFT_ARM"
-																		},
-																		{
-																			"type":"INPUT",
-																			"subType":"TEXT",
-																			"entry":"NUMERIC",
-																			"decimal":true,
-																			"key":"bodyFatRightLeg",
-																			"suffix":"%",
-																			"label":"RIGHT_LEG"
-																		},
-																		{
-																			"type":"INPUT",
-																			"subType":"TEXT",
-																			"entry":"NUMERIC",
-																			"decimal":true,
-																			"key":"bodyFatTrunk",
-																			"suffix":"%",
-																			"label":"TRUNK"
+																			"type":"CONTAINER",
+																			"subType":"COLUMN",
+																			"renderBackground":true,
+																			"elements":[
+																				{
+																					"type":"INPUT",
+																					"subType":"TEXT",
+																					"entry":"NUMERIC",
+																					"decimal":true,
+																					"key":"bodyFatRightLeg",
+																					"suffix":"%",
+																					"label":"RIGHT_LEG"
+																				},
+																				{
+																					"type":"INPUT",
+																					"subType":"TEXT",
+																					"entry":"NUMERIC",
+																					"decimal":true,
+																					"key":"bodyFatTrunk",
+																					"suffix":"%",
+																					"label":"TRUNK"
+																				}
+																			]
 																		}
-																		
 																	]
 																},
 																{
 																	"type":"CONTAINER",
 																	"subType":"FIELDSET",
 																	"title":"OTHER_MESUREMENTS",
-																	"renderHorizontal":false,
+																	"renderHorizontal":true,
 																	"flexConfiguration":{
 																		"flex":"1",
 																		"gap":5
 																	},
 																	"elements":[
 																		{
-																			"type":"INPUT",
-																			"subType":"TEXT",
-																			"entry":"NUMERIC",
-																			"decimal":true,
-																			"key":"wristCircumference",
-																			"suffix":"%",
-																			"label":"WRIST_CIRCUMFERENCE"
+																			"type":"CONTAINER",
+																			"subType":"COLUMN",
+																			"renderBackground":true,
+																			"elements":[
+																				{
+																					"type":"INPUT",
+																					"subType":"TEXT",
+																					"entry":"NUMERIC",
+																					"decimal":true,
+																					"key":"wristCircumference",
+																					"suffix":"%",
+																					"label":"WRIST_CIRCUMFERENCE"
+																				},
+																				{
+																					"type":"INPUT",
+																					"subType":"TEXT",
+																					"entry":"NUMERIC",
+																					"decimal":true,
+																					"key":"abdominalCircumference",
+																					"suffix":"%",
+																					"label":"ABDOMINAL_CIRCUMFERENCE"
+																				},
+																				{
+																					"type":"INPUT",
+																					"subType":"TEXT",
+																					"entry":"NUMERIC",
+																					"decimal":true,
+																					"key":"boneMass",
+																					"label":"BONE_MASS"
+																				}
+																			]
 																		},
 																		{
-																			"type":"INPUT",
-																			"subType":"TEXT",
-																			"entry":"NUMERIC",
-																			"decimal":true,
-																			"key":"abdominalCircumference",
-																			"suffix":"%",
-																			"label":"ABDOMINAL_CIRCUMFERENCE"
-																		},
-																		{
-																			"type":"INPUT",
-																			"subType":"TEXT",
-																			"entry":"NUMERIC",
-																			"decimal":true,
-																			"key":"boneMass",
-																			"label":"BONE_MASS"
-																		},
-																		{
-																			"type":"INPUT",
-																			"subType":"TEXT",
-																			"entry":"NUMERIC",
-																			"decimal":true,
-																			"key":"visceralFat",
-																			"label":"VISCERAL_FAT"
-																		},
-																		{
-																			"type":"INPUT",
-																			"subType":"TEXT",
-																			"entry":"NUMERIC",
-																			"decimal":true,
-																			"key":"waterPorcentage",
-																			"suffix":"%",
-																			"label":"WATER_PORCENTAGE"
+																			"type":"CONTAINER",
+																			"subType":"COLUMN",
+																			"renderBackground":true,
+																			"elements":[
+																				{
+																					"type":"INPUT",
+																					"subType":"TEXT",
+																					"entry":"NUMERIC",
+																					"decimal":true,
+																					"key":"visceralFat",
+																					"label":"VISCERAL_FAT"
+																				},
+																				{
+																					"type":"INPUT",
+																					"subType":"TEXT",
+																					"entry":"NUMERIC",
+																					"decimal":true,
+																					"key":"waterPorcentage",
+																					"suffix":"%",
+																					"label":"WATER_PORCENTAGE"
+																				}
+																			]
 																		}
-																		
 																	]
 																}
 														
