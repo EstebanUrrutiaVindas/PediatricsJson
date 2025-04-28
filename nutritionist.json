@@ -55,6 +55,11 @@
 								"label":"BIRTH_DATE",
 								"accessorKey":"birthDate",
 								"type":"DATE"
+							},
+							{
+								"label":"SEX",
+								"accessorKey":"sex",
+								"type":"TEXT"
 							}
 						],
 						"identificationInputSPL":{
