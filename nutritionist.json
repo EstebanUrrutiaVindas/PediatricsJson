@@ -140,13 +140,6 @@
 													"type":"INPUT",
 													"subType":"TEXT",
 													"entry":"GENERAL",
-													"label":"PHYSICAL_ACTIVITY",
-													"key":"PhysicalActivity"
-												},
-												{
-													"type":"INPUT",
-													"subType":"TEXT",
-													"entry":"GENERAL",
 													"label":"STUDYING",
 													"key":"studying"
 												},
@@ -213,6 +206,13 @@
 																	]
 																}
 															]
+														},
+														{
+															"type":"INPUT",
+															"subType":"TEXT",
+															"entry":"GENERAL",
+															"label":"PHYSICAL_ACTIVITY",
+															"key":"PhysicalActivity"
 														}
 													]
 												},
