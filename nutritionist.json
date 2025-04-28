@@ -495,11 +495,6 @@
 																			"type":"CONTAINER",
 																			"subType":"COLUMN",
 																			"renderBackground":false,
-																			"style": {
-																				"alignItems": "flex-start",
-																				"justifyContent": "flex-start",
-																				"display": "flex"
-																			},
 																			"elements":[
 																				{
 																					"type":"INPUT",
@@ -508,7 +503,10 @@
 																					"decimal":true,
 																					"key":"wristCircumference",
 																					"suffix":"%",
-																					"label":"WRIST_CIRCUMFERENCE"
+																					"label":"WRIST_CIRCUMFERENCE",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				},
 																				{
 																					"type":"INPUT",
@@ -517,7 +515,10 @@
 																					"decimal":true,
 																					"key":"abdominalCircumference",
 																					"suffix":"%",
-																					"label":"ABDOMINAL_CIRCUMFERENCE"
+																					"label":"ABDOMINAL_CIRCUMFERENCE",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				},
 																				{
 																					"type":"INPUT",
@@ -525,7 +526,10 @@
 																					"entry":"NUMERIC",
 																					"decimal":true,
 																					"key":"boneMass",
-																					"label":"BONE_MASS"
+																					"label":"BONE_MASS",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				}
 																			]
 																		},
@@ -533,11 +537,6 @@
 																			"type":"CONTAINER",
 																			"subType":"COLUMN",
 																			"renderBackground":false,
-																			"style": {
-																				"alignItems": "flex-start",
-																				"justifyContent": "flex-start",
-																				"display": "flex"
-																			},
 																			"elements":[
 																				{
 																					"type":"INPUT",
@@ -545,7 +544,10 @@
 																					"entry":"NUMERIC",
 																					"decimal":true,
 																					"key":"visceralFat",
-																					"label":"VISCERAL_FAT"
+																					"label":"VISCERAL_FAT",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				},
 																				{
 																					"type":"INPUT",
@@ -554,7 +556,10 @@
 																					"decimal":true,
 																					"key":"waterPorcentage",
 																					"suffix":"%",
-																					"label":"WATER_PORCENTAGE"
+																					"label":"WATER_PORCENTAGE",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				}
 																			]
 																		}
