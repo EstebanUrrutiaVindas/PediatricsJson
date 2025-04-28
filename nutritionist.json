@@ -496,7 +496,9 @@
 																			"subType":"COLUMN",
 																			"renderBackground":false,
 																			"style": {
-																				"alignItems": "flex-start"
+																				"alignItems": "flex-start",
+																				"justifyContent": "flex-start",
+																				"display": "flex"
 																			},
 																			"elements":[
 																				{
@@ -532,7 +534,9 @@
 																			"subType":"COLUMN",
 																			"renderBackground":false,
 																			"style": {
-																				"alignItems": "flex-start"
+																				"alignItems": "flex-start",
+																				"justifyContent": "flex-start",
+																				"display": "flex"
 																			},
 																			"elements":[
 																				{
