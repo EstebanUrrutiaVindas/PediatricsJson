@@ -351,7 +351,10 @@
 																					"decimal":true,
 																					"key":"muscleMassTotal",
 																					"suffix":"%",
-																					"label":"TOTAL"
+																					"label":"TOTAL",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				},
 																				{
 																					"type":"INPUT",
@@ -360,7 +363,10 @@
 																					"decimal":true,
 																					"key":"muscleMassRightArm",
 																					"suffix":"%",
-																					"label":"RIGHT_ARM"
+																					"label":"RIGHT_ARM",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				},
 																				{
 																					"type":"INPUT",
@@ -369,7 +375,10 @@
 																					"decimal":true,
 																					"key":"muscleMassLeftArm",
 																					"suffix":"%",
-																					"label":"LEFT_ARM"
+																					"label":"LEFT_ARM",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				}
 																			]
 																		},
@@ -385,7 +394,10 @@
 																					"decimal":true,
 																					"key":"muscleMassRightLeg",
 																					"suffix":"%",
-																					"label":"RIGHT_LEG"
+																					"label":"RIGHT_LEG",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				},
 																				{
 																					"type":"INPUT",
@@ -394,7 +406,10 @@
 																					"decimal":true,
 																					"key":"muscleMassLeftLeg",
 																					"suffix":"%",
-																					"label":"LEFT_LEG"
+																					"label":"LEFT_LEG",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				},
 																				{
 																					"type":"INPUT",
@@ -403,7 +418,10 @@
 																					"decimal":true,
 																					"key":"muscleMassTrunk",
 																					"suffix":"%",
-																					"label":"TRUNK"
+																					"label":"TRUNK",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				}
 																				
 																			]
@@ -432,7 +450,10 @@
 																					"decimal":true,
 																					"key":"bodyFatTotal",
 																					"suffix":"%",
-																					"label":"TOTAL"
+																					"label":"TOTAL",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				},
 																				{
 																					"type":"INPUT",
@@ -441,7 +462,10 @@
 																					"decimal":true,
 																					"key":"bodyFatRightArm",
 																					"suffix":"%",
-																					"label":"RIGHT_ARM"
+																					"label":"RIGHT_ARM",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				},
 																				{
 																					"type":"INPUT",
@@ -450,7 +474,10 @@
 																					"decimal":true,
 																					"key":"bodyFatLeftArm",
 																					"suffix":"%",
-																					"label":"LEFT_ARM"
+																					"label":"LEFT_ARM",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				}
 																			]
 																		},
@@ -466,7 +493,10 @@
 																					"decimal":true,
 																					"key":"bodyFatRightLeg",
 																					"suffix":"%",
-																					"label":"RIGHT_LEG"
+																					"label":"RIGHT_LEG",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				},
 																				{
 																					"type":"INPUT",
@@ -475,7 +505,10 @@
 																					"decimal":true,
 																					"key":"bodyFatTrunk",
 																					"suffix":"%",
-																					"label":"TRUNK"
+																					"label":"TRUNK",
+																					"style":{
+																						"maxHeight": "40px"
+																					}
 																				}
 																			]
 																		}
