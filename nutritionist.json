@@ -165,42 +165,52 @@
 											"key":"patientInfoRow2",
 											"elements":[
 												{
-													"type":"INPUT",
-													"subType":"SELECT",
-													"label":"SMOKES",
-													"key":"smokes",
-													"sources":[
+													"type":"CONTAINER",
+													"subType":"COLUMN",
+													"key":"fieldSetsColumn",
+													"flexConfiguration":{
+														"gap":10
+													},
+													"elements":[
 														{
-															"type":"SELECT",
-															"options":[
+															"type":"INPUT",
+															"subType":"SELECT",
+															"label":"SMOKES",
+															"key":"smokes",
+															"sources":[
 																{
-																	"key":"yes",
-																	"value":"YES"
-																},
-																{
-																	"key":"no",
-																	"value":"NO"
+																	"type":"SELECT",
+																	"options":[
+																		{
+																			"key":"yes",
+																			"value":"YES"
+																		},
+																		{
+																			"key":"no",
+																			"value":"NO"
+																		}
+																	]
 																}
 															]
-														}
-													]
-												},
-												{
-													"type":"INPUT",
-													"subType":"SELECT",
-													"label":"DRINKS_ALCOHOL",
-													"key":"drinksAlcohol",
-													"sources":[
+														},
 														{
-															"type":"SELECT",
-															"options":[
+															"type":"INPUT",
+															"subType":"SELECT",
+															"label":"DRINKS_ALCOHOL",
+															"key":"drinksAlcohol",
+															"sources":[
 																{
-																	"key":"yes",
-																	"value":"YES"
-																},
-																{
-																	"key":"no",
-																	"value":"NO"
+																	"type":"SELECT",
+																	"options":[
+																		{
+																			"key":"yes",
+																			"value":"YES"
+																		},
+																		{
+																			"key":"no",
+																			"value":"NO"
+																		}
+																	]
 																}
 															]
 														}
