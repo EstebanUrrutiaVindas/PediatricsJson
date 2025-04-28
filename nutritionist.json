@@ -329,12 +329,6 @@
 														"display":"flex"
 													},
 													"elements":[
-														{
-															"type":"CONTAINER",
-															"subType":"COLUMN",
-															"renderBackground":true,
-															"key":"bodyMesurementInputs",
-															"elements":[
 																{
 																	"type":"CONTAINER",
 																	"subType":"FIELDSET",
@@ -579,8 +573,7 @@
 																		
 																	]
 																}
-															]
-														}
+														
 													]
 												},
 												{
