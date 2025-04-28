@@ -267,7 +267,17 @@
 																"minWidth":"180px",
 																"maxWidth":"190px"
 															}
-														},
+														}
+													]
+												},
+												{
+													"type":"CONTAINER",
+													"subType":"ROW",
+													"flexConfiguration":{
+														"gap":8,
+														"display":"flex"
+													},
+													"elements":[
 														{
 															"type":"INFO",
 															"subType":"DATE_DIFFERENCE",
@@ -608,6 +618,141 @@
 													"label":"NOTES",
 													"resizeVertical":true
 												}
+											]
+										}
+									]
+								}
+							},
+							{
+								"label":"BIOCHEMICAL_ANALYSIS",
+								"spl":{
+									"type":"CONTAINER",
+									"subType":"LIST",
+									"key":"biochemicalAnalysisList",
+									"renderKey":"biochemicalAnalysis",
+									"includeSeparationLine":true,
+									"actions":[
+										"ADD",
+										"SORT",
+										"EDIT"
+									],
+									"floatButton":true,
+									"elements":[
+										{
+											"type":"CONTAINER",
+											"subType":"COLUMN",
+											"renderBackground":true,
+											"key":"biochemicalAnalysisRecord",
+											"elements":[
+												{
+													"type":"CONTAINER",
+													"subType":"ROW",
+													"flexConfiguration":{
+														"gap":8,
+														"display":"flex"
+													},
+													"elements":[
+														{
+															"type":"INPUT",
+															"subType":"DATE",
+															"key":"consultDate",
+															"label":"CONSULT_DATE",
+															"preloadDate": true,
+															"style":{
+																"minWidth":"180px",
+																"maxWidth":"190px"
+															}
+														}
+													]
+												},
+												{
+													"type":"CONTAINER",
+													"subType":"ROW",
+													"flexConfiguration":{
+														"gap":8,
+														"display":"flex"
+													},
+													"elements":[
+														{
+															"type":"INPUT",
+															"subType":"TEXT",
+															"entry":"NUMERIC",
+															"decimal":true,
+															"key":"glucose",
+															"label":"GLUCOSE",
+															"style":{
+																"maxHeight": "40px"
+															}
+														},
+														{
+															"type":"INPUT",
+															"subType":"TEXT",
+															"entry":"NUMERIC",
+															"decimal":true,
+															"key":"triglycerides",
+															"label":"TRIGLYCERIDES",
+															"style":{
+																"maxHeight": "40px"
+															}
+														},
+														{
+															"type":"INPUT",
+															"subType":"TEXT",
+															"entry":"NUMERIC",
+															"decimal":true,
+															"key":"totalCholesterol",
+															"label":"TOTAL_CHOLESTEROL",
+															"style":{
+																"maxHeight": "40px"
+															}
+														},
+														{
+															"type":"INPUT",
+															"subType":"TEXT",
+															"entry":"NUMERIC",
+															"decimal":true,
+															"key":"hdlCholesterol",
+															"label":"HDL_CHOLESTEROL",
+															"style":{
+																"maxHeight": "40px"
+															}
+														},
+														{
+															"type":"INPUT",
+															"subType":"TEXT",
+															"entry":"NUMERIC",
+															"decimal":true,
+															"key":"ldlCholesterol",
+															"label":"LDL_CHOLESTEROL",
+															"style":{
+																"maxHeight": "40px"
+															}
+														},
+														{
+															"type":"INPUT",
+															"subType":"TEXT",
+															"entry":"NUMERIC",
+															"decimal":true,
+															"key":"hemoglobin",
+															"label":"HEMOGLOBIN",
+															"style":{
+																"maxHeight": "40px"
+															}
+														},
+														{
+															"type":"INPUT",
+															"subType":"TEXT",
+															"entry":"NUMERIC",
+															"decimal":true,
+															"key":"hematocrit",
+															"label":"HEMATOCRIT",
+															"style":{
+																"maxHeight": "40px"
+															}
+														}
+													]
+												}
+
 											]
 										}
 									]
