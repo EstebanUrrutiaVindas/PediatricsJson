@@ -333,7 +333,7 @@
 																	"type":"CONTAINER",
 																	"subType":"FIELDSET",
 																	"title":"MUSCLE_MASS",
-																	"renderHorizontal":true,
+																	"renderHorizontal":false,
 																	"flexConfiguration":{
 																		"flex":"none",
 																		"gap":5
@@ -399,7 +399,7 @@
 																	"type":"CONTAINER",
 																	"subType":"FIELDSET",
 																	"title":"BODY_FAT_PORCENTAGES",
-																	"renderHorizontal":true,
+																	"renderHorizontal":false,
 																	"flexConfiguration":{
 																		"flex":"none",
 																		"gap":5
@@ -457,7 +457,7 @@
 																	"type":"CONTAINER",
 																	"subType":"FIELDSET",
 																	"title":"OTHER_MESUREMENTS",
-																	"renderHorizontal":true,
+																	"renderHorizontal":false,
 																	"flexConfiguration":{
 																		"flex":"none",
 																		"gap":5
