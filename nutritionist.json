@@ -812,6 +812,7 @@
 															"subType": "LIST",
 															"key": "PMCInputsList",
 															"renderKey": "PMCInputs",
+															"includeSeparationLine": false,
 															"actions": [
 																"ADD",
 																"DELETE"
@@ -861,6 +862,7 @@
 															"subType": "LIST",
 															"key": "FMCInputsList",
 															"renderKey": "FMCInputs",
+															"includeSeparationLine": false,
 															"actions": [
 																"ADD",
 																"DELETE"
@@ -910,6 +912,7 @@
 															"subType": "LIST",
 															"key": "MedicationsInputsList",
 															"renderKey": "MedicationsInputs",
+															"includeSeparationLine": false,
 															"actions": [
 																"ADD",
 																"DELETE"
