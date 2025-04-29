@@ -765,7 +765,8 @@
 									"includeSeparationLine": true,
 									"actions": [
 										"ADD",
-										"SORT"
+										"SORT",
+										"EDIT"
 									],
 									"floatButton": true,
 									"elements": [
@@ -811,7 +812,6 @@
 															"subType": "LIST",
 															"key": "PMCInputsList",
 															"renderKey": "PMCInputs",
-															"includeSeparationLine": true,
 															"actions": [
 																"ADD",
 																"DELETE"
@@ -861,7 +861,6 @@
 															"subType": "LIST",
 															"key": "FMCInputsList",
 															"renderKey": "FMCInputs",
-															"includeSeparationLine": true,
 															"actions": [
 																"ADD",
 																"DELETE"
@@ -911,7 +910,6 @@
 															"subType": "LIST",
 															"key": "MedicationsInputsList",
 															"renderKey": "MedicationsInputs",
-															"includeSeparationLine": true,
 															"actions": [
 																"ADD",
 																"DELETE"
