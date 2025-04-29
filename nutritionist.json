@@ -1,227 +1,227 @@
 {
-	"id":"415671a0-81e4-443e-a2c3-ebca5cba58da",
-	"devVersion":"true",
-	"name":"Nutritionist",
-	"scope":"Medicine",
-	"version":"1.5",
-	"menu":[
+	"id": "415671a0-81e4-443e-a2c3-ebca5cba58da",
+	"devVersion": "true",
+	"name": "Nutritionist",
+	"scope": "Medicine",
+	"version": "1.5",
+	"menu": [
 		{
-			"icon":"fa-home",
-			"label":"HOME",
-			"goTo":"Home",
-			"mfeConfig":{
-				"id":"ebd71b1e-8ac8-4a09-8b97-3848d93eba71",
-				"name":"home"
+			"icon": "fa-home",
+			"label": "HOME",
+			"goTo": "Home",
+			"mfeConfig": {
+				"id": "ebd71b1e-8ac8-4a09-8b97-3848d93eba71",
+				"name": "home"
 			}
 		},
 		{
-			"label":"PATIENTS",
-			"icon":"fa-clipboard-user",
-			"items":[
+			"label": "PATIENTS",
+			"icon": "fa-clipboard-user",
+			"items": [
 				{
-					"label":"PATIENTS",
-					"goTo":"Records",
-					"mfeConfig":{
-						"id":"081e837d-88e5-4b33-a810-bd505df6e78c",
-						"name":"PATIENTS",
-						"singularName":"PATIENT",
-						"icons":{
-							"clientType":{
-								"fontFamily":"Material Symbols Outlined",
-								"unicode":""
+					"label": "PATIENTS",
+					"goTo": "Records",
+					"mfeConfig": {
+						"id": "081e837d-88e5-4b33-a810-bd505df6e78c",
+						"name": "PATIENTS",
+						"singularName": "PATIENT",
+						"icons": {
+							"clientType": {
+								"fontFamily": "Material Symbols Outlined",
+								"unicode": ""
 							},
-							"id":{
-								"fontFamily":"Material Symbols Outlined",
-								"unicode":""
+							"id": {
+								"fontFamily": "Material Symbols Outlined",
+								"unicode": ""
 							}
 						},
-						"extraColumns":[
+						"extraColumns": [
 							{
-								"accessorKey":"birthDate",
-								"header":"BIRTH_DATE",
-								"type":"DATE"
+								"accessorKey": "birthDate",
+								"header": "BIRTH_DATE",
+								"type": "DATE"
 							}
 						],
-						"labeledInfo":[
+						"labeledInfo": [
 							{
-								"label":"IDENTIFICATION_TYPE",
-								"accessorKey":"identificationType",
-								"type":"OBJECT",
-								"params":{
-									"renderField":"value"
+								"label": "IDENTIFICATION_TYPE",
+								"accessorKey": "identificationType",
+								"type": "OBJECT",
+								"params": {
+									"renderField": "value"
 								}
 							},
 							{
-								"label":"BIRTH_DATE",
-								"accessorKey":"birthDate",
-								"type":"DATE"
+								"label": "BIRTH_DATE",
+								"accessorKey": "birthDate",
+								"type": "DATE"
 							}
 						],
-						"identificationInputSPL":{
-							"type":"INPUT",
-							"subType":"IDENTIFICATION",
-							"key":"identification",
-							"require":true,
-							"typesSpec":[
+						"identificationInputSPL": {
+							"type": "INPUT",
+							"subType": "IDENTIFICATION",
+							"key": "identification",
+							"require": true,
+							"typesSpec": [
 								"COSTARRICAN_NATIONAL",
 								"COSTARRICAN_RESIDENT",
 								"PASSPORT",
 								"DIMEX"
 							],
-							"typesSpecAction":"INCLUDE",
-							"targets":{
-								"name":"name",
-								"lastName":"familyName"
+							"typesSpecAction": "INCLUDE",
+							"targets": {
+								"name": "name",
+								"lastName": "familyName"
 							}
 						},
-						"tabs":[
+						"tabs": [
 							{
-								"label":"INFORMATION",
-								"spl":{
-									"type":"CONTAINER",
-									"subType":"COLUMN",
-									"key":"patientInformationForm",
-									"renderBackground":true,
-									"elements":[
+								"label": "INFORMATION",
+								"spl": {
+									"type": "CONTAINER",
+									"subType": "COLUMN",
+									"key": "patientInformationForm",
+									"renderBackground": true,
+									"elements": [
 										{
-											"type":"CONTAINER",
-											"subType":"ROW",
-											"shareId":"birthInformation",
-											"key":"patientInfoRow1",
-											"elements":[
+											"type": "CONTAINER",
+											"subType": "ROW",
+											"shareId": "birthInformation",
+											"key": "patientInfoRow1",
+											"elements": [
 												{
-													"type":"INPUT",
-													"subType":"DATE",
-													"label":"FIRST_CONSULT_DATE",
-													"key":"firstConsultDate",
-													"require":true,
-													"style":{
-														"minWidth":"180px",
-														"maxWidth":"190px"
+													"type": "INPUT",
+													"subType": "DATE",
+													"label": "FIRST_CONSULT_DATE",
+													"key": "firstConsultDate",
+													"require": true,
+													"style": {
+														"minWidth": "180px",
+														"maxWidth": "190px"
 													}
 												},
 												{
-													"type":"INPUT",
-													"subType":"SELECT",
-													"label":"SEX",
-													"key":"sex",
-													"sources":[
+													"type": "INPUT",
+													"subType": "SELECT",
+													"label": "SEX",
+													"key": "sex",
+													"sources": [
 														{
-															"type":"SELECT",
-															"options":[
+															"type": "SELECT",
+															"options": [
 																{
-																	"key":"male",
-																	"value":"MALE"
+																	"key": "male",
+																	"value": "MALE"
 																},
 																{
-																	"key":"female",
-																	"value":"FEMALE"
-																}, 
+																	"key": "female",
+																	"value": "FEMALE"
+																},
 																{
-																	"key":"Undefined",
-																	"value":"UNDEFINED"
+																	"key": "Undefined",
+																	"value": "UNDEFINED"
 																}
 															]
 														}
 													]
 												},
 												{
-													"type":"INPUT",
-													"subType":"DATE",
-													"label":"BIRTH_DATE",
-													"key":"birthDate",
-													"require":true,
-													"style":{
-														"minWidth":"180px",
-														"maxWidth":"190px"
+													"type": "INPUT",
+													"subType": "DATE",
+													"label": "BIRTH_DATE",
+													"key": "birthDate",
+													"require": true,
+													"style": {
+														"minWidth": "180px",
+														"maxWidth": "190px"
 													}
 												},
 												{
-													"type":"INPUT",
-													"subType":"TEXT",
-													"entry":"GENERAL",
-													"label":"STUDIES",
-													"key":"studies"
+													"type": "INPUT",
+													"subType": "TEXT",
+													"entry": "GENERAL",
+													"label": "STUDIES",
+													"key": "studies"
 												},
 												{
-													"type":"INPUT",
-													"subType":"TEXT",
-													"entry":"GENERAL",
-													"label":"JOB",
-													"key":"job"
+													"type": "INPUT",
+													"subType": "TEXT",
+													"entry": "GENERAL",
+													"label": "JOB",
+													"key": "job"
 												}
 											]
 										},
 										{
-											"type":"CONTAINER",
-											"subType":"ROW",
-											"key":"patientInfoRow2",
-											"elements":[
+											"type": "CONTAINER",
+											"subType": "ROW",
+											"key": "patientInfoRow2",
+											"elements": [
 												{
-													"type":"CONTAINER",
-													"subType":"COLUMN",
-													"key":"fieldSetsColumn",
-													"flexConfiguration":{
-														"gap":10
+													"type": "CONTAINER",
+													"subType": "COLUMN",
+													"key": "fieldSetsColumn",
+													"flexConfiguration": {
+														"gap": 10
 													},
-													"elements":[
+													"elements": [
 														{
-															"type":"INPUT",
-															"subType":"SELECT",
-															"label":"SMOKES",
-															"key":"smokes",
-															"sources":[
+															"type": "INPUT",
+															"subType": "SELECT",
+															"label": "SMOKES",
+															"key": "smokes",
+															"sources": [
 																{
-																	"type":"SELECT",
-																	"options":[
+																	"type": "SELECT",
+																	"options": [
 																		{
-																			"key":"yes",
-																			"value":"YES"
+																			"key": "yes",
+																			"value": "YES"
 																		},
 																		{
-																			"key":"no",
-																			"value":"NO"
+																			"key": "no",
+																			"value": "NO"
 																		}
 																	]
 																}
 															]
 														},
 														{
-															"type":"INPUT",
-															"subType":"SELECT",
-															"label":"DRINKS_ALCOHOL",
-															"key":"drinksAlcohol",
-															"sources":[
+															"type": "INPUT",
+															"subType": "SELECT",
+															"label": "DRINKS_ALCOHOL",
+															"key": "drinksAlcohol",
+															"sources": [
 																{
-																	"type":"SELECT",
-																	"options":[
+																	"type": "SELECT",
+																	"options": [
 																		{
-																			"key":"yes",
-																			"value":"YES"
+																			"key": "yes",
+																			"value": "YES"
 																		},
 																		{
-																			"key":"no",
-																			"value":"NO"
+																			"key": "no",
+																			"value": "NO"
 																		}
 																	]
 																}
 															]
 														},
 														{
-															"type":"INPUT",
-															"subType":"TEXT",
-															"entry":"GENERAL",
-															"label":"PHYSICAL_ACTIVITY",
-															"key":"PhysicalActivity"
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "GENERAL",
+															"label": "PHYSICAL_ACTIVITY",
+															"key": "PhysicalActivity"
 														}
 													]
 												},
 												{
-													"type":"INPUT",
-													"subType":"MULTILINE",
-													"key":"patientNotes",
-													"label":"PATIENT_NOTES",
-													"resizeVertical":true
+													"type": "INPUT",
+													"subType": "MULTILINE",
+													"key": "patientNotes",
+													"label": "PATIENT_NOTES",
+													"resizeVertical": true
 												}
 											]
 										}
@@ -229,394 +229,392 @@
 								}
 							},
 							{
-								"label":"BODY_MEASUREMENTS",
-								"spl":{
-									"type":"CONTAINER",
-									"subType":"LIST",
-									"key":"bodyMesurementsList",
-									"renderKey":"bodyMesurements",
-									"includeSeparationLine":true,
-									"actions":[
+								"label": "BODY_MEASUREMENTS",
+								"spl": {
+									"type": "CONTAINER",
+									"subType": "LIST",
+									"key": "bodyMesurementsList",
+									"renderKey": "bodyMesurements",
+									"includeSeparationLine": true,
+									"actions": [
 										"ADD",
 										"SORT",
 										"EDIT"
 									],
-									"floatButton":true,
-									"elements":[
+									"floatButton": true,
+									"elements": [
 										{
-											"type":"CONTAINER",
-											"subType":"COLUMN",
-											"renderBackground":true,
-											"key":"bodyMesurementRecord",
-											"elements":[
+											"type": "CONTAINER",
+											"subType": "COLUMN",
+											"renderBackground": true,
+											"key": "bodyMesurementRecord",
+											"elements": [
 												{
-													"type":"CONTAINER",
-													"subType":"ROW",
-													"flexConfiguration":{
-														"gap":8,
-														"display":"flex"
+													"type": "CONTAINER",
+													"subType": "ROW",
+													"flexConfiguration": {
+														"gap": 8,
+														"display": "flex"
 													},
-													"elements":[
+													"elements": [
 														{
-															"type":"INPUT",
-															"subType":"DATE",
-															"key":"consultDate",
-															"label":"CONSULT_DATE",
+															"type": "INPUT",
+															"subType": "DATE",
+															"key": "consultDate",
+															"label": "CONSULT_DATE",
 															"preloadDate": true,
-															"style":{
-																"minWidth":"180px",
-																"maxWidth":"190px"
+															"style": {
+																"minWidth": "180px",
+																"maxWidth": "190px"
 															}
 														}
 													]
 												},
 												{
-													"type":"CONTAINER",
-													"subType":"ROW",
-													"flexConfiguration":{
-														"gap":8,
-														"display":"flex"
+													"type": "CONTAINER",
+													"subType": "ROW",
+													"flexConfiguration": {
+														"gap": 8,
+														"display": "flex"
 													},
-													"elements":[
+													"elements": [
 														{
-															"type":"INFO",
-															"subType":"DATE_DIFFERENCE",
-															"keyA":"birthDate",
-															"keyB":"consultDate",
-															"label":"AGE",
-															"style":{
-																"minWidth":"180px",
-																"maxWidth":"190px"
+															"type": "INFO",
+															"subType": "DATE_DIFFERENCE",
+															"keyA": "birthDate",
+															"keyB": "consultDate",
+															"label": "AGE",
+															"style": {
+																"minWidth": "180px",
+																"maxWidth": "190px"
 															}
 														},
 														{
-															"type":"INPUT",
-															"subType":"TEXT",
-															"entry":"NUMERIC",
-															"decimal":true,
-															"key":"height",
-															"suffix":"cm",
-															"label":"HEIGHT",
-															"style":{
-																"minWidth":"110px",
-																"maxWidth":"150px"
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"decimal": true,
+															"key": "height",
+															"suffix": "cm",
+															"label": "HEIGHT",
+															"style": {
+																"minWidth": "110px",
+																"maxWidth": "150px"
 															}
 														},
 														{
-															"type":"INPUT",
-															"subType":"TEXT",
-															"entry":"NUMERIC",
-															"decimal":true,
-															"key":"weight",
-															"suffix":"kg",
-															"label":"WEIGHT",
-															"style":{
-																"minWidth":"110px",
-																"maxWidth":"150px"
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"decimal": true,
+															"key": "weight",
+															"suffix": "kg",
+															"label": "WEIGHT",
+															"style": {
+																"minWidth": "110px",
+																"maxWidth": "150px"
 															}
 														},
 														{
-															"type":"INFO",
-															"subType":"MATH_CALC",
-															"keys":[
+															"type": "INFO",
+															"subType": "MATH_CALC",
+															"keys": [
 																"weight",
 																"height"
 															],
-															"equation":"p0 / ((p1/100) * (p1/100))",
-															"label":"BMI",
-															"style":{
-																"minWidth":"180px",
-																"maxWidth":"190px"
+															"equation": "p0 / ((p1/100) * (p1/100))",
+															"label": "BMI",
+															"style": {
+																"minWidth": "180px",
+																"maxWidth": "190px"
 															}
 														}
 													]
 												},
 												{
-													"type":"CONTAINER",
-													"subType":"ROW",
-													"flexConfiguration":{
-														"gap":8,
-														"display":"flex"
+													"type": "CONTAINER",
+													"subType": "ROW",
+													"flexConfiguration": {
+														"gap": 8,
+														"display": "flex"
 													},
-													"elements":[
+													"elements": [
+														{
+															"type": "CONTAINER",
+															"subType": "FIELDSET",
+															"title": "MUSCLE_MASS",
+															"renderHorizontal": true,
+															"flexConfiguration": {
+																"flex": "1",
+																"gap": 5
+															},
+															"elements": [
 																{
-																	"type":"CONTAINER",
-																	"subType":"FIELDSET",
-																	"title":"MUSCLE_MASS",
-																	"renderHorizontal":true, 
-																	"flexConfiguration":{
-																		"flex":"1",
-																		"gap":5
-																	},
-																	"elements":[
+																	"type": "CONTAINER",
+																	"subType": "COLUMN",
+																	"renderBackground": false,
+																	"elements": [
 																		{
-																			"type":"CONTAINER",
-																			"subType":"COLUMN",
-																			"renderBackground":false,
-																			"elements":[
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"muscleMassTotal",
-																					"suffix":"%",
-																					"label":"TOTAL",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				},
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"muscleMassRightArm",
-																					"suffix":"%",
-																					"label":"RIGHT_ARM",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				},
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"muscleMassLeftArm",
-																					"suffix":"%",
-																					"label":"LEFT_ARM",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				}
-																			]
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "muscleMassTotal",
+																			"suffix": "%",
+																			"label": "TOTAL",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
 																		},
 																		{
-																			"type":"CONTAINER",
-																			"subType":"COLUMN",
-																			"renderBackground":false,
-																			"elements":[
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"muscleMassRightLeg",
-																					"suffix":"%",
-																					"label":"RIGHT_LEG",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				},
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"muscleMassLeftLeg",
-																					"suffix":"%",
-																					"label":"LEFT_LEG",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				},
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"muscleMassTrunk",
-																					"suffix":"%",
-																					"label":"TRUNK",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				}
-																				
-																			]
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "muscleMassRightArm",
+																			"suffix": "%",
+																			"label": "RIGHT_ARM",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "muscleMassLeftArm",
+																			"suffix": "%",
+																			"label": "LEFT_ARM",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
 																		}
 																	]
 																},
 																{
-																	"type":"CONTAINER",
-																	"subType":"FIELDSET",
-																	"title":"BODY_FAT_PORCENTAGES",
-																	"renderHorizontal":true,
-																	"flexConfiguration":{
-																		"flex":"1",
-																		"gap":5
-																	},
-																	"elements":[
+																	"type": "CONTAINER",
+																	"subType": "COLUMN",
+																	"renderBackground": false,
+																	"elements": [
 																		{
-																			"type":"CONTAINER",
-																			"subType":"COLUMN",
-																			"renderBackground":false,
-																			"elements":[
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"bodyFatTotal",
-																					"suffix":"%",
-																					"label":"TOTAL",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				},
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"bodyFatRightArm",
-																					"suffix":"%",
-																					"label":"RIGHT_ARM",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				},
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"bodyFatLeftArm",
-																					"suffix":"%",
-																					"label":"LEFT_ARM",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				}
-																			]
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "muscleMassRightLeg",
+																			"suffix": "%",
+																			"label": "RIGHT_LEG",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
 																		},
 																		{
-																			"type":"CONTAINER",
-																			"subType":"COLUMN",
-																			"renderBackground":false,
-																			"elements":[
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"bodyFatRightLeg",
-																					"suffix":"%",
-																					"label":"RIGHT_LEG",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				},
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"bodyFatTrunk",
-																					"suffix":"%",
-																					"label":"TRUNK",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				}
-																			]
-																		}
-																	]
-																},
-																{
-																	"type":"CONTAINER",
-																	"subType":"FIELDSET",
-																	"title":"OTHER_MESUREMENTS",
-																	"renderHorizontal":true,
-																	"flexConfiguration":{
-																		"flex":"1",
-																		"gap":5
-																	},
-																	"elements":[
-																		{
-																			"type":"CONTAINER",
-																			"subType":"COLUMN",
-																			"renderBackground":false,
-																			"elements":[
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"wristCircumference",
-																					"suffix":"%",
-																					"label":"WRIST_CIRCUMFERENCE",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				},
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"abdominalCircumference",
-																					"suffix":"%",
-																					"label":"ABDOMINAL_CIRCUMFERENCE",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				},
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"boneMass",
-																					"label":"BONE_MASS",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				}
-																			]
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "muscleMassLeftLeg",
+																			"suffix": "%",
+																			"label": "LEFT_LEG",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
 																		},
 																		{
-																			"type":"CONTAINER",
-																			"subType":"COLUMN",
-																			"renderBackground":false,
-																			"elements":[
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"visceralFat",
-																					"label":"VISCERAL_FAT",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				},
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"decimal":true,
-																					"key":"waterPorcentage",
-																					"suffix":"%",
-																					"label":"WATER_PORCENTAGE",
-																					"style":{
-																						"maxHeight": "40px"
-																					}
-																				}
-																			]
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "muscleMassTrunk",
+																			"suffix": "%",
+																			"label": "TRUNK",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
 																		}
 																	]
 																}
-														
+															]
+														},
+														{
+															"type": "CONTAINER",
+															"subType": "FIELDSET",
+															"title": "BODY_FAT_PORCENTAGES",
+															"renderHorizontal": true,
+															"flexConfiguration": {
+																"flex": "1",
+																"gap": 5
+															},
+															"elements": [
+																{
+																	"type": "CONTAINER",
+																	"subType": "COLUMN",
+																	"renderBackground": false,
+																	"elements": [
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "bodyFatTotal",
+																			"suffix": "%",
+																			"label": "TOTAL",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "bodyFatRightArm",
+																			"suffix": "%",
+																			"label": "RIGHT_ARM",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "bodyFatLeftArm",
+																			"suffix": "%",
+																			"label": "LEFT_ARM",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
+																		}
+																	]
+																},
+																{
+																	"type": "CONTAINER",
+																	"subType": "COLUMN",
+																	"renderBackground": false,
+																	"elements": [
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "bodyFatRightLeg",
+																			"suffix": "%",
+																			"label": "RIGHT_LEG",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "bodyFatTrunk",
+																			"suffix": "%",
+																			"label": "TRUNK",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"type": "CONTAINER",
+															"subType": "FIELDSET",
+															"title": "OTHER_MESUREMENTS",
+															"renderHorizontal": true,
+															"flexConfiguration": {
+																"flex": "1",
+																"gap": 5
+															},
+															"elements": [
+																{
+																	"type": "CONTAINER",
+																	"subType": "COLUMN",
+																	"renderBackground": false,
+																	"elements": [
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "wristCircumference",
+																			"suffix": "%",
+																			"label": "WRIST_CIRCUMFERENCE",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "abdominalCircumference",
+																			"suffix": "%",
+																			"label": "ABDOMINAL_CIRCUMFERENCE",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "boneMass",
+																			"label": "BONE_MASS",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
+																		}
+																	]
+																},
+																{
+																	"type": "CONTAINER",
+																	"subType": "COLUMN",
+																	"renderBackground": false,
+																	"elements": [
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "visceralFat",
+																			"label": "VISCERAL_FAT",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal": true,
+																			"key": "waterPorcentage",
+																			"suffix": "%",
+																			"label": "WATER_PORCENTAGE",
+																			"style": {
+																				"maxHeight": "40px"
+																			}
+																		}
+																	]
+																}
+															]
+														}
 													]
 												},
 												{
-													"type":"INPUT",
-													"subType":"MULTILINE",
-													"key":"consultNotes",
-													"label":"NOTES",
-													"resizeVertical":true
+													"type": "INPUT",
+													"subType": "MULTILINE",
+													"key": "consultNotes",
+													"label": "NOTES",
+													"resizeVertical": true
 												}
 											]
 										}
@@ -624,435 +622,421 @@
 								}
 							},
 							{
-								"label":"BIOCHEMICAL_ANALYSIS",
-								"spl":{
-									"type":"CONTAINER",
-									"subType":"LIST",
-									"key":"biochemicalAnalysisList",
-									"renderKey":"biochemicalAnalysis",
-									"includeSeparationLine":true,
-									"actions":[
+								"label": "BIOCHEMICAL_ANALYSIS",
+								"spl": {
+									"type": "CONTAINER",
+									"subType": "LIST",
+									"key": "biochemicalAnalysisList",
+									"renderKey": "biochemicalAnalysis",
+									"includeSeparationLine": true,
+									"actions": [
 										"ADD",
 										"SORT",
 										"EDIT"
 									],
-									"floatButton":true,
-									"elements":[
+									"floatButton": true,
+									"elements": [
 										{
-											"type":"CONTAINER",
-											"subType":"COLUMN",
-											"renderBackground":true,
-											"key":"biochemicalAnalysisRecord",
-											"elements":[
+											"type": "CONTAINER",
+											"subType": "COLUMN",
+											"renderBackground": true,
+											"key": "biochemicalAnalysisRecord",
+											"elements": [
 												{
-													"type":"CONTAINER",
-													"subType":"ROW",
-													"flexConfiguration":{
-														"gap":8,
-														"display":"flex"
+													"type": "CONTAINER",
+													"subType": "ROW",
+													"flexConfiguration": {
+														"gap": 8,
+														"display": "flex"
 													},
-													"elements":[
+													"elements": [
 														{
-															"type":"INPUT",
-															"subType":"DATE",
-															"key":"consultDate",
-															"label":"CONSULT_DATE",
+															"type": "INPUT",
+															"subType": "DATE",
+															"key": "consultDate",
+															"label": "CONSULT_DATE",
 															"preloadDate": true,
-															"style":{
-																"minWidth":"180px",
-																"maxWidth":"190px"
+															"style": {
+																"minWidth": "180px",
+																"maxWidth": "190px"
 															}
 														}
 													]
 												},
 												{
-													"type":"CONTAINER",
-													"subType":"ROW",
-													"flexConfiguration":{
-														"gap":8,
-														"display":"flex"
+													"type": "CONTAINER",
+													"subType": "ROW",
+													"flexConfiguration": {
+														"gap": 8,
+														"display": "flex"
 													},
-													"elements":[
+													"elements": [
 														{
-															"type":"INPUT",
-															"subType":"TEXT",
-															"entry":"NUMERIC",
-															"decimal":true,
-															"key":"glucose",
-															"label":"GLUCOSE",
-															"style":{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"decimal": true,
+															"key": "glucose",
+															"label": "GLUCOSE",
+															"style": {
 																"maxHeight": "40px"
 															}
 														},
 														{
-															"type":"INPUT",
-															"subType":"TEXT",
-															"entry":"NUMERIC",
-															"decimal":true,
-															"key":"triglycerides",
-															"label":"TRIGLYCERIDES",
-															"style":{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"decimal": true,
+															"key": "triglycerides",
+															"label": "TRIGLYCERIDES",
+															"style": {
 																"maxHeight": "40px"
 															}
 														},
 														{
-															"type":"INPUT",
-															"subType":"TEXT",
-															"entry":"NUMERIC",
-															"decimal":true,
-															"key":"totalCholesterol",
-															"label":"TOTAL_CHOLESTEROL",
-															"style":{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"decimal": true,
+															"key": "totalCholesterol",
+															"label": "TOTAL_CHOLESTEROL",
+															"style": {
 																"maxHeight": "40px"
 															}
 														},
 														{
-															"type":"INPUT",
-															"subType":"TEXT",
-															"entry":"NUMERIC",
-															"decimal":true,
-															"key":"hdlCholesterol",
-															"label":"HDL_CHOLESTEROL",
-															"style":{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"decimal": true,
+															"key": "hdlCholesterol",
+															"label": "HDL_CHOLESTEROL",
+															"style": {
 																"maxHeight": "40px"
 															}
 														},
 														{
-															"type":"INPUT",
-															"subType":"TEXT",
-															"entry":"NUMERIC",
-															"decimal":true,
-															"key":"ldlCholesterol",
-															"label":"LDL_CHOLESTEROL",
-															"style":{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"decimal": true,
+															"key": "ldlCholesterol",
+															"label": "LDL_CHOLESTEROL",
+															"style": {
 																"maxHeight": "40px"
 															}
 														},
 														{
-															"type":"INPUT",
-															"subType":"TEXT",
-															"entry":"NUMERIC",
-															"decimal":true,
-															"key":"hemoglobin",
-															"label":"HEMOGLOBIN",
-															"style":{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"decimal": true,
+															"key": "hemoglobin",
+															"label": "HEMOGLOBIN",
+															"style": {
 																"maxHeight": "40px"
 															}
 														},
 														{
-															"type":"INPUT",
-															"subType":"TEXT",
-															"entry":"NUMERIC",
-															"decimal":true,
-															"key":"hematocrit",
-															"label":"HEMATOCRIT",
-															"style":{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"decimal": true,
+															"key": "hematocrit",
+															"label": "HEMATOCRIT",
+															"style": {
 																"maxHeight": "40px"
 															}
 														}
 													]
 												}
-
 											]
 										}
 									]
 								}
 							},
 							{
-								"label":"CLINIC",
-								"spl":{
-									"type":"CONTAINER",
-									"subType":"LIST",
-									"key":"clinicList",
-									"renderKey":"clinic",
-									"includeSeparationLine":true,
-									"actions":[
+								"label": "CLINIC",
+								"spl": {
+									"type": "CONTAINER",
+									"subType": "LIST",
+									"key": "clinicList",
+									"renderKey": "clinic",
+									"includeSeparationLine": true,
+									"actions": [
 										"ADD",
 										"SORT"
 									],
-									"floatButton":true,
-									"elements":[
+									"floatButton": true,
+									"elements": [
 										{
-											"type":"CONTAINER",
-											"subType":"COLUMN",
-											"renderBackground":true,
-											"key":"clinicRecord",
-											"elements":[
+											"type": "CONTAINER",
+											"subType": "COLUMN",
+											"renderBackground": true,
+											"key": "clinicRecord",
+											"elements": [
 												{
-													"type":"CONTAINER",
-													"subType":"LIST",
-													"key":"personalMedicalConditionsList",
-													"renderKey":"personalMedicalConditions",
-													"includeSeparationLine":true,
-													"actions":[
-														"ADD",
-														"SORT"
-													],
-													"elements":[
+													"type": "CONTAINER",
+													"subType": "FIELDSET",
+													"title": "PERSONAL_MEDICAL_CONDITIONS",
+													"renderHorizontal": true,
+													"flexConfiguration": {
+														"flex": "1",
+														"gap": 5
+													},
+													"elements": [
 														{
-															"type":"CONTAINER",
-															"subType":"FIELDSET",
-															"title":"PERSONAL_MEDICAL_CONDITIONS",
-															"renderHorizontal":true,
-															"flexConfiguration":{
-																"flex":"1",
-																"gap":5
-															},
-															"elements":[
+															"type": "CONTAINER",
+															"subType": "LIST",
+															"key": "PMCInputsList",
+															"renderKey": "PMCInputs",
+															"includeSeparationLine": true,
+															"actions": [
+																"ADD",
+																"DELETE",
+																"EDIT"
+															],
+															"elements": [
 																{
-																	"type":"CONTAINER",
-																	"subType":"LIST",
-																	"key":"PMCInputsList",
-																	"renderKey":"PMCInputs",
-																	"includeSeparationLine":true,
-																	"actions":[
-																		"ADD",
-																		"DELETE",
-																		"EDIT"
-																	],
-																	"elements":[
+																	"type": "INPUT",
+																	"subType": "AUTOCOMPLETE",
+																	"key": "cie",
+																	"label": "CIE-11",
+																	"sources": [
 																		{
-																			"type":"INPUT",
-																			"subType":"AUTOCOMPLETE",
-																			"key":"cie",
-																			"label":"CIE-11",
-																			"sources":[
-																				{
-																					"type":"GET",
-																					"endpoint":"https://sp-lang.s3.us-east-2.amazonaws.com/pediatrics/CIE/cie.json"
-																				}
-																			],
-																			"style":{
-																				"minWidth":"200px",
-																				"maxWidth":"350px"
-																			},
-																			"lang":"es",
-																			"showId":true
+																			"type": "GET",
+																			"endpoint": "https://sp-lang.s3.us-east-2.amazonaws.com/pediatrics/CIE/cie.json"
 																		}
-																	]
-																},
-																{
-																	"type":"INPUT",
-																	"subType":"MULTILINE",
-																	"key":"consultNotes",
-																	"label":"NOTES",
-																	"resizeVertical":true
+																	],
+																	"style": {
+																		"minWidth": "200px",
+																		"maxWidth": "350px"
+																	},
+																	"lang": "es",
+																	"showId": true
 																}
 															]
 														},
 														{
-															"type":"CONTAINER",
-															"subType":"FIELDSET",
-															"title":"FAMILY_MEDICAL_CONDITIONS",
-															"renderHorizontal":true,
-															"flexConfiguration":{
-																"flex":"1",
-																"gap":5
-															},
-															"elements":[
+															"type": "INPUT",
+															"subType": "MULTILINE",
+															"key": "consultNotes",
+															"label": "NOTES",
+															"resizeVertical": true
+														}
+													]
+												},
+												{
+													"type": "CONTAINER",
+													"subType": "FIELDSET",
+													"title": "FAMILY_MEDICAL_CONDITIONS",
+													"renderHorizontal": true,
+													"flexConfiguration": {
+														"flex": "1",
+														"gap": 5
+													},
+													"elements": [
+														{
+															"type": "CONTAINER",
+															"subType": "LIST",
+															"key": "FMCInputsList",
+															"renderKey": "FMCInputs",
+															"includeSeparationLine": true,
+															"actions": [
+																"ADD",
+																"DELETE",
+																"EDIT"
+															],
+															"elements": [
 																{
-																	"type":"CONTAINER",
-																	"subType":"LIST",
-																	"key":"PMCInputsList",
-																	"renderKey":"PMCInputs",
-																	"includeSeparationLine":true,
-																	"actions":[
-																		"ADD",
-																		"DELETE",
-																		"EDIT"
-																	],
-																	"elements":[
+																	"type": "INPUT",
+																	"subType": "AUTOCOMPLETE",
+																	"key": "cie",
+																	"label": "CIE-11",
+																	"sources": [
 																		{
-																			"type":"INPUT",
-																			"subType":"AUTOCOMPLETE",
-																			"key":"cie",
-																			"label":"CIE-11",
-																			"sources":[
-																				{
-																					"type":"GET",
-																					"endpoint":"https://sp-lang.s3.us-east-2.amazonaws.com/pediatrics/CIE/cie.json"
-																				}
-																			],
-																			"style":{
-																				"minWidth":"200px",
-																				"maxWidth":"350px"
-																			},
-																			"lang":"es",
-																			"showId":true
+																			"type": "GET",
+																			"endpoint": "https://sp-lang.s3.us-east-2.amazonaws.com/pediatrics/CIE/cie.json"
 																		}
-																	]
-																},
-																{
-																	"type":"INPUT",
-																	"subType":"MULTILINE",
-																	"key":"consultNotes",
-																	"label":"NOTES",
-																	"resizeVertical":true
+																	],
+																	"style": {
+																		"minWidth": "200px",
+																		"maxWidth": "350px"
+																	},
+																	"lang": "es",
+																	"showId": true
 																}
 															]
 														},
 														{
-															"type":"CONTAINER",
-															"subType":"FIELDSET",
-															"title":"MEDICATIONS",
-															"renderHorizontal":true,
-															"flexConfiguration":{
-																"flex":"1",
-																"gap":5
-															},
-															"elements":[
+															"type": "INPUT",
+															"subType": "MULTILINE",
+															"key": "consultNotes",
+															"label": "NOTES",
+															"resizeVertical": true
+														}
+													]
+												},
+												{
+													"type": "CONTAINER",
+													"subType": "FIELDSET",
+													"title": "MEDICATIONS",
+													"renderHorizontal": true,
+													"flexConfiguration": {
+														"flex": "1",
+														"gap": 5
+													},
+													"elements": [
+														{
+															"type": "CONTAINER",
+															"subType": "LIST",
+															"key": "MedicationsInputsList",
+															"renderKey": "MedicationsInputs",
+															"includeSeparationLine": true,
+															"actions": [
+																"ADD",
+																"DELETE",
+																"EDIT"
+															],
+															"elements": [
 																{
-																	"type":"CONTAINER",
-																	"subType":"LIST",
-																	"key":"PMCInputsList",
-																	"renderKey":"PMCInputs",
-																	"includeSeparationLine":true,
-																	"actions":[
-																		"ADD",
-																		"DELETE",
-																		"EDIT"
-																	],
-																	"elements":[
+																	"type": "INPUT",
+																	"subType": "AUTOCOMPLETE",
+																	"key": "cie",
+																	"label": "CIE-11",
+																	"sources": [
 																		{
-																			"type":"INPUT",
-																			"subType":"AUTOCOMPLETE",
-																			"key":"cie",
-																			"label":"CIE-11",
-																			"sources":[
-																				{
-																					"type":"GET",
-																					"endpoint":"https://sp-lang.s3.us-east-2.amazonaws.com/pediatrics/CIE/cie.json"
-																				}
-																			],
-																			"style":{
-																				"minWidth":"200px",
-																				"maxWidth":"350px"
-																			},
-																			"lang":"es",
-																			"showId":true
+																			"type": "GET",
+																			"endpoint": "https://sp-lang.s3.us-east-2.amazonaws.com/pediatrics/CIE/cie.json"
 																		}
-																	]
-																},
-																{
-																	"type":"INPUT",
-																	"subType":"MULTILINE",
-																	"key":"consultNotes",
-																	"label":"NOTES",
-																	"resizeVertical":true
+																	],
+																	"style": {
+																		"minWidth": "200px",
+																		"maxWidth": "350px"
+																	},
+																	"lang": "es",
+																	"showId": true
 																}
 															]
+														},
+														{
+															"type": "INPUT",
+															"subType": "MULTILINE",
+															"key": "consultNotes",
+															"label": "NOTES",
+															"resizeVertical": true
 														}
 													]
 												}
 											]
 										}
-								 	]
+									]
 								}
 							},
 							{
-								"label":"GRAPHS",
-								"spl":{
-									"type":"CONTAINER",
-									"subType":"COLUMN",
-									"renderBackground":true,
-									"key":"consultRecord",
-									"elements":[
+								"label": "GRAPHS",
+								"spl": {
+									"type": "CONTAINER",
+									"subType": "COLUMN",
+									"renderBackground": true,
+									"key": "consultRecord",
+									"elements": [
 										{
-											"type":"CONTAINER",
-											"subType":"ROW",
-											"flexConfiguration":{
-												"gap":8,
-												"display":"flex"
+											"type": "CONTAINER",
+											"subType": "ROW",
+											"flexConfiguration": {
+												"gap": 8,
+												"display": "flex"
 											},
-											"elements":[
+											"elements": [
 												{
-													"type":"INFO",
-													"subType":"DATE_DIFFERENCE",
-													"keyA":"birthDate",
-													"label":"ACTUAL_AGE",
-													"style":{
-														"minWidth":"180px",
-														"maxWidth":"190px"
+													"type": "INFO",
+													"subType": "DATE_DIFFERENCE",
+													"keyA": "birthDate",
+													"label": "ACTUAL_AGE",
+													"style": {
+														"minWidth": "180px",
+														"maxWidth": "190px"
 													}
 												},
 												{
-													"type":"INPUT",
-													"subType":"TEXT",
-													"entry":"NUMERIC",
-													"decimal":true,
-													"key":"weight",
-													"suffix":"kg",
-													"label":"WEIGHT",
-													"style":{
-														"minWidth":"110px",
-														"maxWidth":"150px"
+													"type": "INPUT",
+													"subType": "TEXT",
+													"entry": "NUMERIC",
+													"decimal": true,
+													"key": "weight",
+													"suffix": "kg",
+													"label": "WEIGHT",
+													"style": {
+														"minWidth": "110px",
+														"maxWidth": "150px"
 													}
 												},
 												{
-													"type":"INPUT",
-													"subType":"TEXT",
-													"entry":"NUMERIC",
-													"decimal":true,
-													"key":"height",
-													"suffix":"cm",
-													"label":"HEIGHT",
-													"style":{
-														"minWidth":"110px",
-														"maxWidth":"150px"
+													"type": "INPUT",
+													"subType": "TEXT",
+													"entry": "NUMERIC",
+													"decimal": true,
+													"key": "height",
+													"suffix": "cm",
+													"label": "HEIGHT",
+													"style": {
+														"minWidth": "110px",
+														"maxWidth": "150px"
 													}
 												},
 												{
-													"type":"INFO",
-													"subType":"MATH_CALC",
-													"keys":[
+													"type": "INFO",
+													"subType": "MATH_CALC",
+													"keys": [
 														"weight",
 														"height"
 													],
-													"equation":"p0 / ((p1/100) * (p1/100))",
-													"label":"BMI",
-													"style":{
-														"minWidth":"180px",
-														"maxWidth":"190px"
+													"equation": "p0 / ((p1/100) * (p1/100))",
+													"label": "BMI",
+													"style": {
+														"minWidth": "180px",
+														"maxWidth": "190px"
 													}
 												}
 											]
 										},
 										{
-											"type":"CONTAINER",
-											"subType":"COLUMN",
-											"key":"ibmGeneral",
-											"elements":[
+											"type": "CONTAINER",
+											"subType": "COLUMN",
+											"key": "ibmGeneral",
+											"elements": [
 												{
-													"type":"INPUT",
-													"subType":"POINT_PICKER",
-													"key":"graphIBM-IMC",
-													"height":"10",
-													"source":"https://sp-asset.s3.us-east-2.amazonaws.com/graphs/IMC.jpg",
-													"markOptions":[
+													"type": "INPUT",
+													"subType": "POINT_PICKER",
+													"key": "graphIBM-IMC",
+													"height": "10",
+													"source": "https://sp-asset.s3.us-east-2.amazonaws.com/graphs/IMC.jpg",
+													"markOptions": [
 														{
-															"icon":{
-																"fontFamily":"Material Symbols Outlined",
-																"unicode":""
+															"icon": {
+																"fontFamily": "Material Symbols Outlined",
+																"unicode": ""
 															},
-															"color":"black"
+															"color": "black"
 														},
 														{
-															"icon":{
-																"fontFamily":"Material Symbols Outlined",
-																"unicode":""
+															"icon": {
+																"fontFamily": "Material Symbols Outlined",
+																"unicode": ""
 															},
-															"color":"#E3E3E3"
+															"color": "#E3E3E3"
 														},
 														{
-															"icon":{
-																"fontFamily":"Material Symbols Outlined",
-																"unicode":""
+															"icon": {
+																"fontFamily": "Material Symbols Outlined",
+																"unicode": ""
 															},
-															"color":"#0067FF"
+															"color": "#0067FF"
 														}
 													],
-													"label":"BODY_MASS_INDEX",
-													"autoDate":true
+													"label": "BODY_MASS_INDEX",
+													"autoDate": true
 												}
 											]
 										}
@@ -1060,27 +1044,27 @@
 								}
 							}
 						],
-						"relations":[
+						"relations": [
 							{
-								"targetRecord":"6aef7649-5015-4d71-8d3a-c77979cb5065",
-								"relationName":"PARENT"
+								"targetRecord": "6aef7649-5015-4d71-8d3a-c77979cb5065",
+								"relationName": "PARENT"
 							},
 							{
-								"targetRecord":"6aef7649-5015-4d71-8d3a-c77979cb5065",
-								"relationName":"FOSTER_PARENT"
+								"targetRecord": "6aef7649-5015-4d71-8d3a-c77979cb5065",
+								"relationName": "FOSTER_PARENT"
 							},
 							{
-								"targetRecord":"6aef7649-5015-4d71-8d3a-c77979cb5065",
-								"relationName":"GRANDPARENT"
+								"targetRecord": "6aef7649-5015-4d71-8d3a-c77979cb5065",
+								"relationName": "GRANDPARENT"
 							},
 							{
-								"sourceRecord":"081e837d-88e5-4b33-a810-bd505df6e78c",
-								"relationName":"SIBLING",
-								"targetRelationName":"SIBLING"
+								"sourceRecord": "081e837d-88e5-4b33-a810-bd505df6e78c",
+								"relationName": "SIBLING",
+								"targetRelationName": "SIBLING"
 							},
 							{
-								"targetRecord":"6aef7649-5015-4d71-8d3a-c77979cb5065",
-								"relationName":"OTHER"
+								"targetRecord": "6aef7649-5015-4d71-8d3a-c77979cb5065",
+								"relationName": "OTHER"
 							}
 						]
 					}
@@ -1089,71 +1073,71 @@
 		},
 		[
 			{
-				"icon":"fa-calendar-check",
-				"label":"APPOINTMENTS",
-				"goTo":"Dates",
-				"mfeConfig":{
-					"id":"2ea0eb1a-391e-4559-80a7-d548b4342b27",
-					"name":"appointments"
+				"icon": "fa-calendar-check",
+				"label": "APPOINTMENTS",
+				"goTo": "Dates",
+				"mfeConfig": {
+					"id": "2ea0eb1a-391e-4559-80a7-d548b4342b27",
+					"name": "appointments"
 				}
 			},
 			{
-				"icon":"fa-messages",
-				"label":"MESSAGES",
-				"goTo":"Messages",
-				"mfeConfig":{
-					"id":"7fa9ff4e-1ce0-471f-aae7-70736d6525a3",
-					"name":"messages"
+				"icon": "fa-messages",
+				"label": "MESSAGES",
+				"goTo": "Messages",
+				"mfeConfig": {
+					"id": "7fa9ff4e-1ce0-471f-aae7-70736d6525a3",
+					"name": "messages"
 				}
-			}, 
+			},
 			{
-				"icon":"fa-rectangle-list",
-				"label":"SERVICES",
-				"goTo":"Services",
-				"mfeConfig":{
-					"id":"cdffc5f1-f4db-4bd7-8470-264bdf2d5dc4",
-					"name":"services"
+				"icon": "fa-rectangle-list",
+				"label": "SERVICES",
+				"goTo": "Services",
+				"mfeConfig": {
+					"id": "cdffc5f1-f4db-4bd7-8470-264bdf2d5dc4",
+					"name": "services"
 				}
 			}
 		],
 		{
-			"icon":"fa-file-invoice",
-			"label":"INVOICE",
-			"items":[
+			"icon": "fa-file-invoice",
+			"label": "INVOICE",
+			"items": [
 				{
-					"label":"BILLER",
-					"goTo":"Invoice",
-					"mfeConfig":{
-						"id":"ea15aa98-0b71-4ed7-847a-d133f946d6f6",
-						"name":"invoice"
+					"label": "BILLER",
+					"goTo": "Invoice",
+					"mfeConfig": {
+						"id": "ea15aa98-0b71-4ed7-847a-d133f946d6f6",
+						"name": "invoice"
 					}
 				},
 				{
-					"label":"INVOICE-CONFIGURATION",
-					"goTo":"Invoice",
-					"mfeConfig":{
-						"id":"e316a28b-548a-462a-bed3-f6cf95c51e43",
-						"name":"invoice"
+					"label": "INVOICE-CONFIGURATION",
+					"goTo": "Invoice",
+					"mfeConfig": {
+						"id": "e316a28b-548a-462a-bed3-f6cf95c51e43",
+						"name": "invoice"
 					}
 				}
 			]
 		},
 		{
-			"icon":"fa-users",
-			"label":"USERS",
-			"goTo":"Users",
-			"mfeConfig":{
-				"id":"a9f83daa-fd8d-11ed-be56-0242ac120007",
-				"name":"users"
+			"icon": "fa-users",
+			"label": "USERS",
+			"goTo": "Users",
+			"mfeConfig": {
+				"id": "a9f83daa-fd8d-11ed-be56-0242ac120007",
+				"name": "users"
 			}
 		},
 		{
-			"icon":"fa-gear",
-			"label":"ACCOUNT",
-			"goTo":"Account",
-			"mfeConfig":{
-				"id":"f56a63f3-b5f2-429b-8ec8-6026a03edab4",
-				"name":"account"
+			"icon": "fa-gear",
+			"label": "ACCOUNT",
+			"goTo": "Account",
+			"mfeConfig": {
+				"id": "f56a63f3-b5f2-429b-8ec8-6026a03edab4",
+				"name": "account"
 			}
 		}
 	]
