@@ -777,6 +777,27 @@
 											"elements": [
 												{
 													"type": "CONTAINER",
+													"subType": "ROW",
+													"flexConfiguration": {
+														"gap": 8,
+														"display": "flex"
+													},
+													"elements": [
+														{
+															"type": "INPUT",
+															"subType": "DATE",
+															"key": "consultDate",
+															"label": "CONSULT_DATE",
+															"preloadDate": true,
+															"style": {
+																"minWidth": "180px",
+																"maxWidth": "190px"
+															}
+														}
+													]
+												},
+												{
+													"type": "CONTAINER",
 													"subType": "FIELDSET",
 													"title": "PERSONAL_MEDICAL_CONDITIONS",
 													"renderHorizontal": true,
@@ -793,8 +814,7 @@
 															"includeSeparationLine": true,
 															"actions": [
 																"ADD",
-																"DELETE",
-																"EDIT"
+																"DELETE"
 															],
 															"elements": [
 																{
@@ -844,8 +864,7 @@
 															"includeSeparationLine": true,
 															"actions": [
 																"ADD",
-																"DELETE",
-																"EDIT"
+																"DELETE"
 															],
 															"elements": [
 																{
@@ -895,8 +914,7 @@
 															"includeSeparationLine": true,
 															"actions": [
 																"ADD",
-																"DELETE",
-																"EDIT"
+																"DELETE"
 															],
 															"elements": [
 																{
