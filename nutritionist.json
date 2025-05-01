@@ -1222,7 +1222,8 @@
 																		"flexConfiguration": {
 																		  "display": "flex",
 																		  "flexDirection": "column",
-																		  "gap": 8
+																		  "gap": 8,
+																		  "maxWidth":"320px"
 																		},
 																		"elements": [
 																		  {
