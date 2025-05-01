@@ -1071,32 +1071,31 @@
 										},
 										{
 											"type": "CONTAINER",
-											"subType": "LIST",
-											"key": "typicalIntakeList",
-											"renderKey": "typicalIntake",
-											"actions": [
-												"ADD",
-												"DELETE",
-												"EDIT"
-											],
-											"floatButton": true,
+											"subType": "FIELDSET",
+											"title": "TYPICAL_INTAKE",
+											"renderHorizontal": false,
+											"flexConfiguration": {
+												"flex": "1",
+												"gap": 5
+											},
 											"elements": [
 												{
 													"type": "CONTAINER",
-													"subType": "ROW",
-													"flexConfiguration": {
-														"gap": 8,
-														"display": "flex"
-													},
+													"subType": "LIST",
+													"key": "typicalIntakeList",
+													"renderKey": "typicalIntake",
+													"actions": [
+														"ADD",
+														"DELETE",
+														"EDIT"
+													],
 													"elements": [
 														{
 															"type": "CONTAINER",
-															"subType": "FIELDSET",
-															"title": "TYPICAL_INTAKE",
-															"renderHorizontal": false,
+															"subType": "ROW",
 															"flexConfiguration": {
-																"flex": "1",
-																"gap": 5
+																"gap": 8,
+																"display": "flex"
 															},
 															"elements": [
 																{
