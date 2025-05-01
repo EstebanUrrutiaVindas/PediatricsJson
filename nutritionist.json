@@ -1231,7 +1231,11 @@
 																			"subType": "MULTILINE",
 																			"key": "consultNotes",
 																			"label": "NOTES",
-																			"resizeVertical": true
+																			"resizeVertical": true,
+																			"style": {
+																				"minWidth": "180px",
+																				"maxWidth": "300px"
+																			}
 																		}
 																	]
 																}
