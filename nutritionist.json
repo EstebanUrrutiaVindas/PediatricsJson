@@ -1085,6 +1085,7 @@
 													"subType": "LIST",
 													"key": "typicalIntakeList",
 													"renderKey": "typicalIntake",
+													"renderBackground":true,
 													"actions": [
 														"ADD",
 														"DELETE",
@@ -1094,7 +1095,6 @@
 														{
 															"type": "CONTAINER",
 															"subType": "ROW",
-															"renderBackground":true,
 															"flexConfiguration": {
 																"gap": 8,
 																"display": "flex"
