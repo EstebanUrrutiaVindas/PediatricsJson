@@ -1105,7 +1105,7 @@
 																	"subType": "ROW",
 																	"flexConfiguration": {
 																		"gap": 8,
-																		"display": "flex"
+																		"display": "block"
 																	},
 																	"elements": [
 																		{
@@ -1115,7 +1115,7 @@
 																			"key": "mealTime",
 																			"style": {
 																				"minWidth": "110px",
-																				"maxWidth": "510px"
+																				"maxWidth": "310px"
 																			},
 																			"sources": [
 																				{
@@ -1148,6 +1148,13 @@
 																					]
 																				}
 																			]
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "MULTILINE",
+																			"key": "consultNotes",
+																			"label": "NOTES",
+																			"resizeVertical": true
 																		}
 																	]
 																},
