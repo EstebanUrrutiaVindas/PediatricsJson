@@ -1113,6 +1113,10 @@
 																			"subType": "SELECT",
 																			"label": "MEALTIME",
 																			"key": "mealTime",
+																			"style": {
+																				"minWidth": "110px",
+																				"maxWidth": "510px"
+																			},
 																			"sources": [
 																				{
 																					"type": "SELECT",
