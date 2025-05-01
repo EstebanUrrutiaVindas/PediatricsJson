@@ -816,7 +816,7 @@
 																"ADD",
 																"DELETE"
 															],
-															"includeSeparationLine":false,
+															"includeSeparationLine": false,
 															"elements": [
 																{
 																	"type": "INPUT",
@@ -1085,7 +1085,6 @@
 													"subType": "LIST",
 													"key": "typicalIntakeList",
 													"renderKey": "typicalIntake",
-													"renderBackground":true,
 													"actions": [
 														"ADD",
 														"DELETE",
@@ -1095,124 +1094,135 @@
 														{
 															"type": "CONTAINER",
 															"subType": "ROW",
+															"renderBackground": true,
 															"flexConfiguration": {
 																"gap": 8,
-																"display": "flex"
-															},
-															"elements": [
-																{
-																	"type": "INPUT",
-																	"subType": "SELECT",
-																	"label": "MEALTIME",
-																	"key": "mealTime",
-																	"sources": [
-																		{
-																			"type": "SELECT",
-																			"options": [
-																				{
-																					"key": "breakfast",
-																					"value": "BREAKFAST"
-																				},
-																				{
-																					"key": "midMorningSnack",
-																					"value": "MID_MORNING_SNACK"
-																				},
-																				{
-																					"key": "lunch",
-																					"value": "LUNCH"
-																				},
-																				{
-																					"key": "afternoonSnack",
-																					"value": "AFTERNOON_SNACK"
-																				},
-																				{
-																					"key": "dinner",
-																					"value": "DINNER"
-																				},
-																				{
-																					"key": "other",
-																					"value": "OTHER"
-																				}
-																			]
-																		}
-																	]
-																}
-															]
-														},
-														{
-															"type": "CONTAINER",
-															"subType": "ROW",
-															"flexConfiguration": {
-																"gap": 8,
-																"display": "flex"
+																"display": "block"
 															},
 															"elements": [
 																{
 																	"type": "CONTAINER",
-																	"subType": "LIST",
-																	"key": "dishesInputsList",
-																	"renderKey": "dishesInputs",
-																	"includeSeparationLine":false,
-																	"actions": [
-																		"ADD",
-																		"DELETE",
-																		"EDIT"
-																	],
+																	"subType": "ROW",
+																	"flexConfiguration": {
+																		"gap": 8,
+																		"display": "flex"
+																	},
 																	"elements": [
 																		{
-																			"type": "CONTAINER",
-																			"subType": "ROW",
-																			"flexConfiguration": {
-																				"gap": 8,
-																				"display": "flex"
-																			},
-																			"elements": [
+																			"type": "INPUT",
+																			"subType": "SELECT",
+																			"label": "MEALTIME",
+																			"key": "mealTime",
+																			"sources": [
 																				{
-																					"type": "INPUT",
-																					"subType": "TIME",
-																					"entry": "GENERAL",
-																					"key": "dishTime",
-																					"label": "TIME",
-																					"style": {
-																						"minWidth": "110px",
-																						"maxWidth": "110px"
-																					}
-																				},
-																				{
-																					"type": "INPUT",
-																					"subType": "TEXT",
-																					"entry": "GENERAL",
-																					"key": "dish",
-																					"label": "DISH",
-																					"style": {
-																						"minWidth": "110px",
-																						"maxWidth": "500px"
-																					}
-																				},
-																				{
-																					"type": "INPUT",
-																					"subType": "TEXT",
-																					"entry": "NUMERIC",
-																					"key": "calories",
-																					"label": "CALORIES",
-																					"style": {
-																						"minWidth": "110px",
-																						"maxWidth": "110px"
-																					}
+																					"type": "SELECT",
+																					"options": [
+																						{
+																							"key": "breakfast",
+																							"value": "BREAKFAST"
+																						},
+																						{
+																							"key": "midMorningSnack",
+																							"value": "MID_MORNING_SNACK"
+																						},
+																						{
+																							"key": "lunch",
+																							"value": "LUNCH"
+																						},
+																						{
+																							"key": "afternoonSnack",
+																							"value": "AFTERNOON_SNACK"
+																						},
+																						{
+																							"key": "dinner",
+																							"value": "DINNER"
+																						},
+																						{
+																							"key": "other",
+																							"value": "OTHER"
+																						}
+																					]
 																				}
 																			]
 																		}
 																	]
 																},
 																{
-																	"type": "INFO",
-																	"subType": "NUMERIC_INFO",
-																	"key": "caloriesSum",
-																	"label": "TOTAL_CALORIES",
-																	"style": {
-																		"minWidth": "180px",
-																		"maxWidth": "190px"
-																	}
+																	"type": "CONTAINER",
+																	"subType": "ROW",
+																	"flexConfiguration": {
+																		"gap": 8,
+																		"display": "flex"
+																	},
+																	"elements": [
+																		{
+																			"type": "CONTAINER",
+																			"subType": "LIST",
+																			"key": "dishesInputsList",
+																			"renderKey": "dishesInputs",
+																			"includeSeparationLine": false,
+																			"actions": [
+																				"ADD",
+																				"DELETE",
+																				"EDIT"
+																			],
+																			"elements": [
+																				{
+																					"type": "CONTAINER",
+																					"subType": "ROW",
+																					"flexConfiguration": {
+																						"gap": 8,
+																						"display": "flex"
+																					},
+																					"elements": [
+																						{
+																							"type": "INPUT",
+																							"subType": "TIME",
+																							"entry": "GENERAL",
+																							"key": "dishTime",
+																							"label": "TIME",
+																							"style": {
+																								"minWidth": "110px",
+																								"maxWidth": "110px"
+																							}
+																						},
+																						{
+																							"type": "INPUT",
+																							"subType": "TEXT",
+																							"entry": "GENERAL",
+																							"key": "dish",
+																							"label": "DISH",
+																							"style": {
+																								"minWidth": "110px",
+																								"maxWidth": "500px"
+																							}
+																						},
+																						{
+																							"type": "INPUT",
+																							"subType": "TEXT",
+																							"entry": "NUMERIC",
+																							"key": "calories",
+																							"label": "CALORIES",
+																							"style": {
+																								"minWidth": "110px",
+																								"maxWidth": "110px"
+																							}
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			"type": "INFO",
+																			"subType": "NUMERIC_INFO",
+																			"key": "caloriesSum",
+																			"label": "TOTAL_CALORIES",
+																			"style": {
+																				"minWidth": "180px",
+																				"maxWidth": "190px"
+																			}
+																		}
+																	]
 																}
 															]
 														}
