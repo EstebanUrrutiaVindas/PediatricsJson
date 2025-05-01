@@ -816,6 +816,7 @@
 																"ADD",
 																"DELETE"
 															],
+															"includeSeparationLine":false,
 															"elements": [
 																{
 																	"type": "INPUT",
@@ -1093,6 +1094,7 @@
 														{
 															"type": "CONTAINER",
 															"subType": "ROW",
+															"renderBackground":true,
 															"flexConfiguration": {
 																"gap": 8,
 																"display": "flex"
@@ -1150,6 +1152,7 @@
 																	"subType": "LIST",
 																	"key": "dishesInputsList",
 																	"renderKey": "dishesInputs",
+																	"includeSeparationLine":false,
 																	"actions": [
 																		"ADD",
 																		"DELETE",
@@ -1171,8 +1174,8 @@
 																					"key": "dishTime",
 																					"label": "TIME",
 																					"style": {
-																						"minWidth": "80px",
-																						"maxWidth": "120px"
+																						"minWidth": "110px",
+																						"maxWidth": "110px"
 																					}
 																				},
 																				{
@@ -1183,7 +1186,7 @@
 																					"label": "DISH",
 																					"style": {
 																						"minWidth": "110px",
-																						"maxWidth": "400px"
+																						"maxWidth": "500px"
 																					}
 																				},
 																				{
@@ -1193,8 +1196,8 @@
 																					"key": "calories",
 																					"label": "CALORIES",
 																					"style": {
-																						"minWidth": "80px",
-																						"maxWidth": "120px"
+																						"minWidth": "110px",
+																						"maxWidth": "110px"
 																					}
 																				}
 																			]
