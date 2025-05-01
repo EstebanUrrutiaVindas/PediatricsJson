@@ -1155,88 +1155,99 @@
 																	"type": "CONTAINER",
 																	"subType": "ROW",
 																	"flexConfiguration": {
-																		"gap": 8,
-																		"display": "flex"
+																	  "gap": 8,
+																	  "display": "flex"
 																	},
 																	"elements": [
-																		{
+																	  {
+																		"type": "CONTAINER",
+																		"subType": "LIST",
+																		"key": "dishesInputsList",
+																		"renderKey": "dishesInputs",
+																		"includeSeparationLine": false,
+																		"actions": [
+																		  "ADD",
+																		  "DELETE",
+																		  "EDIT"
+																		],
+																		"elements": [
+																		  {
 																			"type": "CONTAINER",
-																			"subType": "LIST",
-																			"key": "dishesInputsList",
-																			"renderKey": "dishesInputs",
-																			"includeSeparationLine": false,
-																			"actions": [
-																				"ADD",
-																				"DELETE",
-																				"EDIT"
-																			],
+																			"subType": "ROW",
+																			"flexConfiguration": {
+																			  "gap": 8,
+																			  "display": "flex"
+																			},
 																			"elements": [
-																				{
-																					"type": "CONTAINER",
-																					"subType": "ROW",
-																					"flexConfiguration": {
-																						"gap": 8,
-																						"display": "flex"
-																					},
-																					"elements": [
-																						{
-																							"type": "INPUT",
-																							"subType": "TIME",
-																							"entry": "GENERAL",
-																							"key": "dishTime",
-																							"label": "TIME",
-																							"style": {
-																								"minWidth": "110px",
-																								"maxWidth": "110px"
-																							}
-																						},
-																						{
-																							"type": "INPUT",
-																							"subType": "TEXT",
-																							"entry": "GENERAL",
-																							"key": "dish",
-																							"label": "DISH",
-																							"style": {
-																								"minWidth": "110px",
-																								"maxWidth": "500px"
-																							}
-																						},
-																						{
-																							"type": "INPUT",
-																							"subType": "TEXT",
-																							"entry": "NUMERIC",
-																							"key": "calories",
-																							"label": "CALORIES",
-																							"style": {
-																								"minWidth": "110px",
-																								"maxWidth": "110px"
-																							}
-																						}
-																					]
+																			  {
+																				"type": "INPUT",
+																				"subType": "TIME",
+																				"entry": "GENERAL",
+																				"key": "dishTime",
+																				"label": "TIME",
+																				"style": {
+																				  "minWidth": "110px",
+																				  "maxWidth": "110px"
 																				}
+																			  },
+																			  {
+																				"type": "INPUT",
+																				"subType": "TEXT",
+																				"entry": "GENERAL",
+																				"key": "dish",
+																				"label": "DISH",
+																				"style": {
+																				  "minWidth": "110px",
+																				  "maxWidth": "500px"
+																				}
+																			  },
+																			  {
+																				"type": "INPUT",
+																				"subType": "TEXT",
+																				"entry": "NUMERIC",
+																				"key": "calories",
+																				"label": "CALORIES",
+																				"style": {
+																				  "minWidth": "110px",
+																				  "maxWidth": "110px"
+																				}
+																			  }
 																			]
+																		  }
+																		]
+																	  },
+																	  {
+																		"type": "CONTAINER",
+																		"subType": "COLUMN",
+																		"flexConfiguration": {
+																		  "display": "flex",
+																		  "flexDirection": "column",
+																		  "gap": 8
 																		},
-																		{
+																		"elements": [
+																		  {
 																			"type": "INFO",
 																			"subType": "NUMERIC_INFO",
 																			"key": "caloriesSum",
 																			"label": "TOTAL_CALORIES",
 																			"style": {
-																				"minWidth": "90px",
-																				"maxWidth": "110px"
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
 																			}
-																		},
-																		{
+																		  },
+																		  {
 																			"type": "INPUT",
 																			"subType": "MULTILINE",
 																			"key": "consultNotes",
 																			"label": "NOTES",
 																			"resizeVertical": true,
 																			"style": {
-																				"minWidth": "180px",
-																				"maxWidth": "300px"
+																			  "minWidth": "180px",
+																			  "maxWidth": "300px"
 																			}
-																		}
+																		  }
+																		]
+																	  }
 																	]
 																}
 															]
