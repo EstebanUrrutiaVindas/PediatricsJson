@@ -1089,12 +1089,10 @@
 													"elements": [
 														{
 															"type": "CONTAINER",
-															"subType": "FIELDSET",
-															"title": "MEALTIME",
-															"renderHorizontal": false,
+															"subType": "ROW",
 															"flexConfiguration": {
-																"flex": "1",
-																"gap": 5
+																"gap": 8,
+																"display": "flex"
 															},
 															"elements": [
 																{
@@ -1132,7 +1130,7 @@
 																						},
 																						{
 																							"key": "dinner",
-																							"value": "dinner"
+																							"value": "DINNER"
 																						},
 																						{
 																							"key": "other",
@@ -1164,37 +1162,47 @@
 																			],
 																			"elements": [
 																				{
-																					"type":"INPUT",
-																					"subType":"TIME",
-																					"entry":"GENERAL",
-																					"key":"dishTime",
-																					"label":"TIME",
-																					"style":{
-																						"minWidth":"40px",
-																						"maxWidth":"60px"
-																					}
-																				},
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"GENERAL",
-																					"key":"dish",
-																					"label":"DISH",
-																					"style":{
-																						"minWidth":"110px",
-																						"maxWidth":"200px"
-																					}
-																				},
-																				{
-																					"type":"INPUT",
-																					"subType":"TEXT",
-																					"entry":"NUMERIC",
-																					"key":"calories",
-																					"label":"CALORIES",
-																					"style":{
-																						"minWidth":"40px",
-																						"maxWidth":"60px"
-																					}
+																					"type": "CONTAINER",
+																					"subType": "ROW",
+																					"flexConfiguration": {
+																						"gap": 8,
+																						"display": "flex"
+																					},
+																					"elements": [
+																						{
+																							"type":"INPUT",
+																							"subType":"TIME",
+																							"entry":"GENERAL",
+																							"key":"dishTime",
+																							"label":"TIME",
+																							"style":{
+																								"minWidth":"40px",
+																								"maxWidth":"60px"
+																							}
+																						},
+																						{
+																							"type":"INPUT",
+																							"subType":"TEXT",
+																							"entry":"GENERAL",
+																							"key":"dish",
+																							"label":"DISH",
+																							"style":{
+																								"minWidth":"110px",
+																								"maxWidth":"300px"
+																							}
+																						},
+																						{
+																							"type":"INPUT",
+																							"subType":"TEXT",
+																							"entry":"NUMERIC",
+																							"key":"calories",
+																							"label":"CALORIES",
+																							"style":{
+																								"minWidth":"40px",
+																								"maxWidth":"60px"
+																							}
+																						}
+																					]
 																				}
 																			]
 																		},
