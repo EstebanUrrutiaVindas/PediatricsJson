@@ -1310,7 +1310,7 @@
 																			"type": "INFO",
 																			"subType": "STATIC_LABEL",
 																			"key": "macronutrientBreakdown",
-																			"text": "BREAKDOWN",
+																			"text": "",
 																			"fontType":"Label",
 																			"style": {
 																			  "minWidth": "100px",
@@ -1602,6 +1602,7 @@
 															"title": "NUTRITIONAL_CALCULATIONS",
 															"renderHorizontal": false,
 															"flexConfiguration": {
+																"flex": "1",
 																"gap": 5,
 																"minWidth": "120px",
 																"maxWidth": "160px"
