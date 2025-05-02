@@ -1308,11 +1308,11 @@
 																			"type": "INFO",
 																			"subType": "STATIC_LABEL",
 																			"key": "macronutrientBreakdown",
-																			"text": "MACRONUTRIENT_BREAKDOWN",
+																			"text": "BREAKDOWN",
 																			"fontType":"Label",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "100px",
+																			  "maxWidth": "100px"
 																			}
 																		},
 																		{
@@ -1322,8 +1322,8 @@
 																			"text": "GOAL",
 																			"fontType":"Label",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "80px",
+																			  "maxWidth": "100px"
 																			}
 																		},
 																		{
@@ -1333,8 +1333,8 @@
 																			"text": "g/kg",
 																			"fontType":"Label",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "80px",
+																			  "maxWidth": "100px"
 																			}
 																		}
 																	]
@@ -1354,8 +1354,8 @@
 																			"text": "NUTRIENT",
 																			"fontType":"Label",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "100px",
+																			  "maxWidth": "100px"
 																			}
 																		},
 																		{
@@ -1366,8 +1366,8 @@
 																			"key": "nutrientGoal",
 																			"label": "GOAL",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "80px",
+																			  "maxWidth": "100px"
 																			}
 																		},
 																		{
@@ -1378,8 +1378,8 @@
 																			"key": "nutrientG/KG",
 																			"label": "g/kg",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "80px",
+																			  "maxWidth": "100px"
 																			}
 																		}
 																	]
@@ -1399,8 +1399,8 @@
 																			"text": "CARBOHYDRATES",
 																			"fontType":"Label",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "100px",
+																			  "maxWidth": "100px"
 																			}
 																		},
 																		{
@@ -1411,8 +1411,8 @@
 																			"key": "carbohydratesGoal",
 																			"label": "GOAL",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "80px",
+																			  "maxWidth": "100px"
 																			}
 																		},
 																		{
@@ -1423,8 +1423,8 @@
 																			"key": "carbohydratesG/KG",
 																			"label": "g/kg",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "80px",
+																			  "maxWidth": "100px"
 																			}
 																		}
 																	]
@@ -1444,8 +1444,8 @@
 																			"text": "PROTEINS",
 																			"fontType":"Label",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "100px",
+																			  "maxWidth": "100px"
 																			}
 																		},
 																		{
@@ -1456,8 +1456,8 @@
 																			"key": "proteinsGoal",
 																			"label": "GOAL",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "80px",
+																			  "maxWidth": "100px"
 																			}
 																		},
 																		{
@@ -1468,8 +1468,8 @@
 																			"key": "proteinsG/KG",
 																			"label": "g/kg",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "80px",
+																			  "maxWidth": "100px"
 																			}
 																		}
 																	]
@@ -1489,8 +1489,8 @@
 																			"text": "FATS",
 																			"fontType":"Label",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "100px",
+																			  "maxWidth": "100px"
 																			}
 																		},
 																		{
@@ -1501,8 +1501,8 @@
 																			"key": "fatsGoal",
 																			"label": "GOAL",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "80px",
+																			  "maxWidth": "100px"
 																			}
 																		},
 																		{
@@ -1513,8 +1513,8 @@
 																			"key": "fatsG/KG",
 																			"label": "g/kg",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "80px",
+																			  "maxWidth": "100px"
 																			}
 																		}
 																	]
@@ -1534,8 +1534,8 @@
 																			"text": "TOTAL",
 																			"fontType":"Label",
 																			"style": {
-																			  "minWidth": "90px",
-																			  "maxWidth": "110px"
+																			  "minWidth": "100px",
+																			  "maxWidth": "100px"
 																			}
 																		},
 																		{
@@ -1549,9 +1549,9 @@
 																			],
 																			"equation":"p0 + p1 + p2 + p3",
 																			"label":"NUTRIENT_TOTAL",
-																			"style":{
-																				"minWidth":"180px",
-																				"maxWidth":"190px"
+																			"style": {
+																			  "minWidth": "80px",
+																			  "maxWidth": "100px"
 																			}
 																		},
 																		{
@@ -1565,81 +1565,80 @@
 																			],
 																			"equation":"p0 + p1 + p2 + p3",
 																			"label":"G/KG_TOTAL",
-																			"style":{
-																				"minWidth":"180px",
-																				"maxWidth":"190px"
+																			"style": {
+																			  "minWidth": "80px",
+																			  "maxWidth": "100px"
 																			}
-																		}
 																	]
 																}
 															]
 														}
 													]
-												}	
-											]
-										},
-										{
-											"type": "CONTAINER",
-											"subType": "ROW",
-											"flexConfiguration": {
-												"gap": 8,
-												"display": "block"
-											},
-											"elements": [
+												},	
 												{
-													"type": "INPUT",
-													"subType": "TEXT",
-													"entry": "NUMERIC",
-													"key": "weightUsed",
-													"label": "WEIGHT_USED",
-													"style": {
-													  "minWidth": "110px",
-													  "maxWidth": "110px"
-													}
-												},
-												{
-													"type": "INPUT",
-													"subType": "TEXT",
-													"entry": "NUMERIC",
-													"key": "activityFactor",
-													"label": "ACTIVITY_FACTOR",
-													"style": {
-													  "minWidth": "110px",
-													  "maxWidth": "110px"
-													}
-												},
-												{
-													"type": "INPUT",
-													"subType": "TEXT",
-													"entry": "NUMERIC",
-													"key": "basalMetabolicRate",
-													"label": "BASAL_METABOLIC_RATE",
-													"style": {
-													  "minWidth": "110px",
-													  "maxWidth": "110px"
-													}
-												},
-												{
-													"type": "INPUT",
-													"subType": "TEXT",
-													"entry": "NUMERIC",
-													"key": "totalEnergyExpenditure",
-													"label": "TOTAL_ENERGY_EXPENDITURE",
-													"style": {
-													  "minWidth": "110px",
-													  "maxWidth": "110px"
-													}
-												},
-												{
-													"type": "INPUT",
-													"subType": "TEXT",
-													"entry": "NUMERIC",
-													"key": "kcal",
-													"label": "KCAL",
-													"style": {
-													  "minWidth": "110px",
-													  "maxWidth": "110px"
-													}
+													"type": "CONTAINER",
+													"subType": "ROW",
+													"flexConfiguration": {
+														"gap": 8,
+														"display": "block"
+													},
+													"elements": [
+														{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"key": "weightUsed",
+															"label": "WEIGHT_USED",
+															"style": {
+															  "minWidth": "110px",
+															  "maxWidth": "110px"
+															}
+														},
+														{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"key": "activityFactor",
+															"label": "ACTIVITY_FACTOR",
+															"style": {
+															  "minWidth": "110px",
+															  "maxWidth": "110px"
+															}
+														},
+														{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"key": "basalMetabolicRate",
+															"label": "BASAL_METABOLIC_RATE",
+															"style": {
+															  "minWidth": "110px",
+															  "maxWidth": "110px"
+															}
+														},
+														{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"key": "totalEnergyExpenditure",
+															"label": "TOTAL_ENERGY_EXPENDITURE",
+															"style": {
+															  "minWidth": "110px",
+															  "maxWidth": "110px"
+															}
+														},
+														{
+															"type": "INPUT",
+															"subType": "TEXT",
+															"entry": "NUMERIC",
+															"key": "kcal",
+															"label": "KCAL",
+															"style": {
+															  "minWidth": "110px",
+															  "maxWidth": "110px"
+															}
+														}
+													]
 												}
 											]
 										}
