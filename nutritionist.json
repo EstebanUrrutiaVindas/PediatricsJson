@@ -1599,7 +1599,7 @@
 															"subType": "ROW",
 															"flexConfiguration": {
 																"gap": 8,
-																"display": "flex"
+																"display": "block"
 															},
 															"elements": [
 																{
