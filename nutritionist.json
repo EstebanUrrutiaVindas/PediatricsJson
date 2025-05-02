@@ -1361,7 +1361,9 @@
 																			"fontType":"Label",
 																			"style": {
 																			  "minWidth": "100px",
-																			  "maxWidth": "100px"
+																			  "maxWidth": "100px",
+																			  "textAlign": "center",
+																			  "display": "block"
 																			}
 																		},
 																		{
@@ -1406,7 +1408,9 @@
 																			"fontType":"Label",
 																			"style": {
 																			  "minWidth": "100px",
-																			  "maxWidth": "100px"
+																			  "maxWidth": "100px",
+																			  "textAlign": "center",
+																			  "display": "block"
 																			}
 																		},
 																		{
@@ -1451,7 +1455,9 @@
 																			"fontType":"Label",
 																			"style": {
 																			  "minWidth": "100px",
-																			  "maxWidth": "100px"
+																			  "maxWidth": "100px",
+																			  "textAlign": "center",
+																			  "display": "block"
 																			}
 																		},
 																		{
@@ -1496,7 +1502,9 @@
 																			"fontType":"Label",
 																			"style": {
 																			  "minWidth": "100px",
-																			  "maxWidth": "100px"
+																			  "maxWidth": "100px",
+																			  "textAlign": "center",
+																			  "display": "block"
 																			}
 																		},
 																		{
@@ -1541,7 +1549,9 @@
 																			"fontType":"Label",
 																			"style": {
 																			  "minWidth": "100px",
-																			  "maxWidth": "100px"
+																			  "maxWidth": "100px",
+																			  "textAlign": "center",
+																			  "display": "block"
 																			}
 																		},
 																		{
@@ -1557,7 +1567,9 @@
 																			"label":"NUTRIENT_TOTAL",
 																			"style": {
 																			  "minWidth": "80px",
-																			  "maxWidth": "100px"
+																			  "maxWidth": "100px",
+																			  "textAlign": "center",
+																			  "display": "block"
 																			}
 																		},
 																		{
@@ -1573,7 +1585,9 @@
 																			"label":"G/KG_TOTAL",
 																			"style": {
 																			  "minWidth": "80px",
-																			  "maxWidth": "100px"
+																			  "maxWidth": "100px",
+																			  "textAlign": "center",
+																			  "display": "block"
 																			}
 																		}
 																	]
@@ -1586,7 +1600,6 @@
 															"title": "NUTRITIONAL_CALCULATIONS",
 															"renderHorizontal": false,
 															"flexConfiguration": {
-																"flex": "1",
 																"gap": 5,
 																"minWidth": "120px",
 																"maxWidth": "160px"
