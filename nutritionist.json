@@ -1312,7 +1312,8 @@
 																			"fontType":"Label",
 																			"style": {
 																			  "minWidth": "100px",
-																			  "maxWidth": "100px"
+																			  "maxWidth": "100px",
+																			  "textAlign": "center"
 																			}
 																		},
 																		{
@@ -1323,7 +1324,8 @@
 																			"fontType":"Label",
 																			"style": {
 																			  "minWidth": "80px",
-																			  "maxWidth": "100px"
+																			  "maxWidth": "100px",
+																			  "textAlign": "center"
 																			}
 																		},
 																		{
@@ -1334,7 +1336,8 @@
 																			"fontType":"Label",
 																			"style": {
 																			  "minWidth": "80px",
-																			  "maxWidth": "100px"
+																			  "maxWidth": "100px",
+																			  "textAlign": "center"
 																			}
 																		}
 																	]
@@ -1573,71 +1576,73 @@
 																	]
 																}
 															]
-														}
-													]
-												},	
-												{
-													"type": "CONTAINER",
-													"subType": "ROW",
-													"flexConfiguration": {
-														"gap": 8,
-														"display": "block"
-													},
-													"elements": [
-														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "NUMERIC",
-															"key": "weightUsed",
-															"label": "WEIGHT_USED",
-															"style": {
-															  "minWidth": "110px",
-															  "maxWidth": "110px"
-															}
 														},
 														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "NUMERIC",
-															"key": "activityFactor",
-															"label": "ACTIVITY_FACTOR",
-															"style": {
-															  "minWidth": "110px",
-															  "maxWidth": "110px"
-															}
-														},
-														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "NUMERIC",
-															"key": "basalMetabolicRate",
-															"label": "BASAL_METABOLIC_RATE",
-															"style": {
-															  "minWidth": "110px",
-															  "maxWidth": "110px"
-															}
-														},
-														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "NUMERIC",
-															"key": "totalEnergyExpenditure",
-															"label": "TOTAL_ENERGY_EXPENDITURE",
-															"style": {
-															  "minWidth": "110px",
-															  "maxWidth": "110px"
-															}
-														},
-														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "NUMERIC",
-															"key": "kcal",
-															"label": "KCAL",
-															"style": {
-															  "minWidth": "110px",
-															  "maxWidth": "110px"
-															}
+															"type": "CONTAINER",
+															"subType": "FIELDSET",
+															"title": "NUTRITIONAL_CALCULATIONS",
+															"renderHorizontal": false,
+															"flexConfiguration": {
+																"flex": "1",
+																"gap": 5
+															},
+															"elements": [
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"key": "weightUsed",
+																	"label": "WEIGHT_USED",
+																	"style": {
+																	  "minWidth": "110px",
+																	  "maxWidth": "110px"
+																	}
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"key": "activityFactor",
+																	"label": "ACTIVITY_FACTOR",
+																	"style": {
+																	  "minWidth": "110px",
+																	  "maxWidth": "110px"
+																	}
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"key": "basalMetabolicRate",
+																	"label": "BASAL_METABOLIC_RATE",
+																	"style": {
+																	  "minWidth": "110px",
+																	  "maxWidth": "110px"
+																	}
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"key": "totalEnergyExpenditure",
+																	"label": "TOTAL_ENERGY_EXPENDITURE",
+																	"style": {
+																	  "minWidth": "110px",
+																	  "maxWidth": "110px"
+																	}
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"key": "kcal",
+																	"label": "KCAL",
+																	"style": {
+																	  "minWidth": "110px",
+																	  "maxWidth": "110px"
+																	}
+																}
+															]
 														}
 													]
 												}
