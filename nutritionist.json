@@ -1261,6 +1261,384 @@
 								}
 							},
 							{
+								"label": "NUTRITION_PLAN",
+								"spl": {
+									"type": "CONTAINER",
+									"subType": "COLUMN",
+									"renderBackground": true,
+									"key": "nutritionPlanRecord",
+									"elements": [
+										{
+											"type": "CONTAINER",
+											"subType": "ROW",
+											"flexConfiguration": {
+												"gap": 8,
+												"display": "flex"
+											},
+											"elements": [
+												{
+													"type": "INPUT",
+													"subType": "TEXT",
+													"entry": "NUMERIC",
+													"key": "weightUsed",
+													"label": "WEIGHT_USED",
+													"style": {
+													  "minWidth": "110px",
+													  "maxWidth": "110px"
+													}
+												},
+												{
+													"type": "INPUT",
+													"subType": "TEXT",
+													"entry": "NUMERIC",
+													"key": "activityFactor",
+													"label": "ACTIVITY_FACTOR",
+													"style": {
+													  "minWidth": "110px",
+													  "maxWidth": "110px"
+													}
+												},
+												{
+													"type": "INPUT",
+													"subType": "TEXT",
+													"entry": "NUMERIC",
+													"key": "basalMetabolicRate",
+													"label": "BASAL_METABOLIC_RATE",
+													"style": {
+													  "minWidth": "110px",
+													  "maxWidth": "110px"
+													}
+												},
+												{
+													"type": "INPUT",
+													"subType": "TEXT",
+													"entry": "NUMERIC",
+													"key": "totalEnergyExpenditure",
+													"label": "TOTAL_ENERGY_EXPENDITURE",
+													"style": {
+													  "minWidth": "110px",
+													  "maxWidth": "110px"
+													}
+												},
+												{
+													"type": "INPUT",
+													"subType": "TEXT",
+													"entry": "NUMERIC",
+													"key": "kcal",
+													"label": "KCAL",
+													"style": {
+													  "minWidth": "110px",
+													  "maxWidth": "110px"
+													}
+												}
+											]
+										},
+										{
+											"type": "CONTAINER",
+											"subType": "ROW",
+											"flexConfiguration": {
+												"gap": 8,
+												"display": "flex"
+											},
+											"elements": [
+												{
+													"type": "CONTAINER",
+													"subType": "LIST",
+													"key": "macronutrientBreakdownList",
+													"renderKey": "macronutrientBreakdown",
+													"includeSeparationLine": false,
+													"actions": [
+													  "ADD",
+													  "DELETE",
+													  "EDIT"
+													],
+													"elements": [
+														{
+															"type": "CONTAINER",
+															"subType": "ROW",
+															"flexConfiguration": {
+																"gap": 8,
+																"display": "block"
+															},
+															"elements": [
+																{
+																	"type": "CONTAINER",
+																	"subType": "ROW",
+																	"flexConfiguration": {
+																		"gap": 8,
+																		"display": "flex"
+																	},
+																	"elements": [
+																		{
+																			"type": "INFO",
+																			"subType": "STATIC_LABEL",
+																			"key": "macronutrientBreakdown",
+																			"text": "MACRONUTRIENT_BREAKDOWN",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		},
+																		{
+																			"type": "INFO",
+																			"subType": "STATIC_LABEL",
+																			"key": "goal",
+																			"text": "GOAL",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		},
+																		{
+																			"type": "INFO",
+																			"subType": "STATIC_LABEL",
+																			"key": "g/kg",
+																			"text": "g/kg",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		}
+																	]
+																},
+																{
+																	"type": "CONTAINER",
+																	"subType": "ROW",
+																	"flexConfiguration": {
+																		"gap": 8,
+																		"display": "flex"
+																	},
+																	"elements": [
+																		{
+																			"type": "INFO",
+																			"subType": "STATIC_LABEL",
+																			"key": "nutrient",
+																			"text": "NUTRIENT",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal":true,
+																			"key": "nutrientGoal",
+																			"label": "GOAL",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal":true,
+																			"key": "nutrientG/KG",
+																			"label": "g/kg",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		}
+																	]
+																},
+																{
+																	"type": "CONTAINER",
+																	"subType": "ROW",
+																	"flexConfiguration": {
+																		"gap": 8,
+																		"display": "flex"
+																	},
+																	"elements": [
+																		{
+																			"type": "INFO",
+																			"subType": "STATIC_LABEL",
+																			"key": "carbohydrates",
+																			"text": "CARBOHYDRATES",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal":true,
+																			"key": "carbohydratesGoal",
+																			"label": "GOAL",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal":true,
+																			"key": "carbohydratesG/KG",
+																			"label": "g/kg",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		}
+																	]
+																},
+																{
+																	"type": "CONTAINER",
+																	"subType": "ROW",
+																	"flexConfiguration": {
+																		"gap": 8,
+																		"display": "flex"
+																	},
+																	"elements": [
+																		{
+																			"type": "INFO",
+																			"subType": "STATIC_LABEL",
+																			"key": "proteins",
+																			"text": "PROTEINS",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal":true,
+																			"key": "proteinsGoal",
+																			"label": "GOAL",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal":true,
+																			"key": "proteinsG/KG",
+																			"label": "g/kg",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		}
+																	]
+																},
+																{
+																	"type": "CONTAINER",
+																	"subType": "ROW",
+																	"flexConfiguration": {
+																		"gap": 8,
+																		"display": "flex"
+																	},
+																	"elements": [
+																		{
+																			"type": "INFO",
+																			"subType": "STATIC_LABEL",
+																			"key": "fats",
+																			"text": "FATS",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal":true,
+																			"key": "fatsGoal",
+																			"label": "GOAL",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		},
+																		{
+																			"type": "INPUT",
+																			"subType": "TEXT",
+																			"entry": "NUMERIC",
+																			"decimal":true,
+																			"key": "fatsG/KG",
+																			"label": "g/kg",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		}
+																	]
+																},
+																{
+																	"type": "CONTAINER",
+																	"subType": "ROW",
+																	"flexConfiguration": {
+																		"gap": 8,
+																		"display": "flex"
+																	},
+																	"elements": [
+																		{
+																			"type": "INFO",
+																			"subType": "STATIC_LABEL",
+																			"key": "totalBreakdown",
+																			"text": "TOTAL",
+																			"style": {
+																			  "minWidth": "90px",
+																			  "maxWidth": "110px"
+																			}
+																		},
+																		{
+																			"type":"INFO",
+																			"subType":"MATH_CALC",
+																			"keys":[
+																				"nutrientGoal",
+																				"carbohydratesGoal",
+																				"proteinsGoal",
+																				"fatsGoal"
+																			],
+																			"equation":"p0 + p1 + p2 + p3",
+																			"label":"NUTRIENT_TOTAL",
+																			"style":{
+																				"minWidth":"180px",
+																				"maxWidth":"190px"
+																			}
+																		},
+																		{
+																			"type":"INFO",
+																			"subType":"MATH_CALC",
+																			"keys":[
+																				"nutrientG/KG",
+																				"carbohydratesG/KG",
+																				"proteinsG/KG",
+																				"fatsG/KG"
+																			],
+																			"equation":"p0 + p1 + p2 + p3",
+																			"label":"G/KG_TOTAL",
+																			"style":{
+																				"minWidth":"180px",
+																				"maxWidth":"190px"
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}	
+											]
+										}
+									]
+								}
+							},
+							{
 								"label": "GRAPHS",
 								"spl": {
 									"type": "CONTAINER",
