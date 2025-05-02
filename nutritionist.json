@@ -1290,12 +1290,10 @@
 													"elements": [
 														{
 															"type": "CONTAINER",
-															"subType": "FIELDSET",
-															"title": "MACRONUTRIENT_BREAKDOWN",
-															"renderHorizontal": false,
+															"subType": "ROW",
 															"flexConfiguration": {
-																"flex":"1",
-																"gap": 5
+																"gap": 8,
+																"display": "block"
 															},
 															"elements": [
 																{
@@ -1310,7 +1308,7 @@
 																			"type": "INFO",
 																			"subType": "STATIC_LABEL",
 																			"key": "macronutrientBreakdown",
-																			"text": "",
+																			"text": "BREAKDOWN",
 																			"fontType":"Label",
 																			"style": {
 																			  "minWidth": "100px",
@@ -1598,14 +1596,10 @@
 														},
 														{
 															"type": "CONTAINER",
-															"subType": "FIELDSET",
-															"title": "NUTRITIONAL_CALCULATIONS",
-															"renderHorizontal": false,
+															"subType": "ROW",
 															"flexConfiguration": {
-																"flex": "1",
-																"gap": 5,
-																"minWidth": "120px",
-																"maxWidth": "160px"
+																"gap": 8,
+																"display": "flex"
 															},
 															"elements": [
 																{
