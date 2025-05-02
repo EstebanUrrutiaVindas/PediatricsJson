@@ -1313,7 +1313,8 @@
 																			"style": {
 																			  "minWidth": "100px",
 																			  "maxWidth": "100px",
-																			  "textAlign": "center"
+																			  "textAlign": "center",
+																			  "display": "block"
 																			}
 																		},
 																		{
@@ -1325,7 +1326,8 @@
 																			"style": {
 																			  "minWidth": "80px",
 																			  "maxWidth": "100px",
-																			  "textAlign": "center"
+																			  "textAlign": "center",
+																			  "display": "block"
 																			}
 																		},
 																		{
@@ -1337,7 +1339,8 @@
 																			"style": {
 																			  "minWidth": "80px",
 																			  "maxWidth": "100px",
-																			  "textAlign": "center"
+																			  "textAlign": "center",
+																			  "display": "block"
 																			}
 																		}
 																	]
@@ -1584,7 +1587,9 @@
 															"renderHorizontal": false,
 															"flexConfiguration": {
 																"flex": "1",
-																"gap": 5
+																"gap": 5,
+																"minWidth": "120px",
+																"maxWidth": "160px"
 															},
 															"elements": [
 																{
@@ -1595,7 +1600,7 @@
 																	"label": "WEIGHT_USED",
 																	"style": {
 																	  "minWidth": "110px",
-																	  "maxWidth": "110px"
+																	  "maxWidth": "150px"
 																	}
 																},
 																{
@@ -1606,7 +1611,7 @@
 																	"label": "ACTIVITY_FACTOR",
 																	"style": {
 																	  "minWidth": "110px",
-																	  "maxWidth": "110px"
+																	  "maxWidth": "150px"
 																	}
 																},
 																{
@@ -1617,7 +1622,7 @@
 																	"label": "BASAL_METABOLIC_RATE",
 																	"style": {
 																	  "minWidth": "110px",
-																	  "maxWidth": "110px"
+																	  "maxWidth": "150px"
 																	}
 																},
 																{
@@ -1628,7 +1633,7 @@
 																	"label": "TOTAL_ENERGY_EXPENDITURE",
 																	"style": {
 																	  "minWidth": "110px",
-																	  "maxWidth": "110px"
+																	  "maxWidth": "150px"
 																	}
 																},
 																{
@@ -1639,7 +1644,7 @@
 																	"label": "KCAL",
 																	"style": {
 																	  "minWidth": "110px",
-																	  "maxWidth": "110px"
+																	  "maxWidth": "150px"
 																	}
 																}
 															]
