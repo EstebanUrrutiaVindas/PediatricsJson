@@ -1290,61 +1290,15 @@
 													"elements": [
 														{
 															"type": "CONTAINER",
-															"subType": "ROW",
+															"subType": "FIELDSET",
+															"title": "NUTRITIONAL_BREAKDOWN",
+															"renderHorizontal": false,
 															"flexConfiguration": {
-																"gap": 8,
-																"display": "block"
+																"flex": "1",
+																"gap": 5,
+																"maxWidth": "410px"
 															},
 															"elements": [
-																{
-																	"type": "CONTAINER",
-																	"subType": "ROW",
-																	"flexConfiguration": {
-																		"gap": 8,
-																		"display": "flex"
-																	},
-																	"elements": [
-																		{
-																			"type": "INFO",
-																			"subType": "STATIC_LABEL",
-																			"key": "macronutrientBreakdown",
-																			"text": "BREAKDOWN",
-																			"fontType": "Label",
-																			"style": {
-																				"minWidth": "100px",
-																				"maxWidth": "150px",
-																				"textAlign": "center",
-																				"display": "block"
-																			}
-																		},
-																		{
-																			"type": "INFO",
-																			"subType": "STATIC_LABEL",
-																			"key": "goal",
-																			"text": "GOAL",
-																			"fontType": "Label",
-																			"style": {
-																				"minWidth": "50px",
-																				"maxWidth": "150px",
-																				"textAlign": "center",
-																				"display": "block"
-																			}
-																		},
-																		{
-																			"type": "INFO",
-																			"subType": "STATIC_LABEL",
-																			"key": "g/kg",
-																			"text": "g/kg",
-																			"fontType": "Label",
-																			"style": {
-																				"minWidth": "50px",
-																				"maxWidth": "150px",
-																				"textAlign": "center",
-																				"display": "block"
-																			}
-																		}
-																	]
-																},
 																{
 																	"type": "CONTAINER",
 																	"subType": "ROW",
