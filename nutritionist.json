@@ -237,8 +237,9 @@
 									"renderKey": "bodyMesurements",
 									"includeSeparationLine": true,
 									"actions": [
-										"ADD",
 										"SORT",
+										"ADD",
+										"DELETE",
 										"EDIT"
 									],
 									"floatButton": true,
@@ -630,8 +631,9 @@
 									"renderKey": "biochemicalAnalysis",
 									"includeSeparationLine": true,
 									"actions": [
-										"ADD",
 										"SORT",
+										"ADD",
+										"DELETE",
 										"EDIT",
 										"HIDE"
 									],
@@ -765,8 +767,9 @@
 									"renderKey": "clinic",
 									"includeSeparationLine": true,
 									"actions": [
-										"ADD",
 										"SORT",
+										"ADD",
+										"DELETE",
 										"EDIT",
 										"HIDE"
 									],
@@ -963,6 +966,7 @@
 									"renderKey": "dieteticsHistory",
 									"floatButton": true,
 									"actions": [
+										"SORT",
 										"ADD",
 										"DELETE",
 										"EDIT",
@@ -1314,6 +1318,7 @@
 									"includeSeparationLine": true,
 									"floatButton": true,
 									"actions": [
+										"SORT",
 										"ADD",
 										"DELETE",
 										"EDIT"
