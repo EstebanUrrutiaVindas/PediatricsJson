@@ -181,6 +181,7 @@
 													"type":"INPUT",
 													"subType":"TEXT",
 													"entry":"NUMERIC",
+													"decimal":true,
 													"label":"BIRTH_WEIGHT",
 													"key":"birthWeight",
 													"suffix":"g"
@@ -189,6 +190,7 @@
 													"type":"INPUT",
 													"subType":"TEXT",
 													"entry":"NUMERIC",
+													"decimal":true,
 													"label":"SIZE",
 													"key":"size",
 													"suffix":"cm"

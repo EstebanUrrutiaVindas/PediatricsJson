@@ -816,7 +816,7 @@
 																"ADD",
 																"DELETE"
 															],
-															"includeSeparationLine": false,
+															"includeSeparationLine": true,
 															"elements": [
 																{
 																	"type": "INPUT",
@@ -866,6 +866,7 @@
 																"ADD",
 																"DELETE"
 															],
+															"includeSeparationLine": true,
 															"elements": [
 																{
 																	"type": "INPUT",
@@ -915,6 +916,7 @@
 																"ADD",
 																"DELETE"
 															],
+															"includeSeparationLine": true,
 															"elements": [
 																{
 																	"type": "INPUT",
@@ -963,6 +965,7 @@
 											"subType": "LIST",
 											"key": "dieteticsHistoryList",
 											"renderKey": "dieteticsHistory",
+											"floatButton": true,
 											"actions": [
 												"ADD",
 												"DELETE",
@@ -1013,6 +1016,7 @@
 																	"subType": "LIST",
 																	"key": "prefferedFoodsInputsList",
 																	"renderKey": "prefferedFoodsInputs",
+																	"includeSeparationLine": true,
 																	"actions": [
 																		"ADD",
 																		"DELETE"
@@ -1047,6 +1051,7 @@
 																	"subType": "LIST",
 																	"key": "dislikedFoodsInputsList",
 																	"renderKey": "dislikedFoodsInputs",
+																	"includeSeparationLine": true,
 																	"actions": [
 																		"ADD",
 																		"DELETE"
@@ -1081,6 +1086,7 @@
 																	"subType": "LIST",
 																	"key": "foodIntolerancesInputsList",
 																	"renderKey": "foodIntolerancesInputs",
+																	"includeSeparationLine": true,
 																	"actions": [
 																		"ADD",
 																		"DELETE"
@@ -1117,6 +1123,7 @@
 															"subType": "LIST",
 															"key": "typicalIntakeList",
 															"renderKey": "typicalIntake",
+															"includeSeparationLine": false,
 															"actions": [
 																"ADD",
 																"DELETE",
@@ -1309,7 +1316,8 @@
 											"subType": "LIST",
 											"key": "macronutrientBreakdownList",
 											"renderKey": "macronutrientBreakdown",
-											"includeSeparationLine": false,
+											"includeSeparationLine": true,
+											"floatButton": true,
 											"actions": [
 												"ADD",
 												"DELETE",
