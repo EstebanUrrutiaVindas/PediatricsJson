@@ -958,22 +958,22 @@
 								"label": "DIETETICS",
 								"spl": {
 									"type": "CONTAINER",
-									"subType": "COLUMN",
-									"renderBackground": true,
-									"key": "dieteticsRecord",
+									"subType": "LIST",
+									"key": "dieteticsHistoryList",
+									"renderKey": "dieteticsHistory",
+									"floatButton": true,
+									"actions": [
+										"ADD",
+										"DELETE",
+										"EDIT",
+										"HIDE"
+									],
 									"elements": [
 										{
 											"type": "CONTAINER",
-											"subType": "LIST",
-											"key": "dieteticsHistoryList",
-											"renderKey": "dieteticsHistory",
-											"floatButton": true,
-											"actions": [
-												"ADD",
-												"DELETE",
-												"EDIT",
-												"HIDE"
-											],
+											"subType": "COLUMN",
+											"renderBackground": true,
+											"key": "dieteticsRecord",
 											"elements": [
 												{
 													"type": "CONTAINER",
@@ -1300,9 +1300,7 @@
 													]
 												}
 											]
-
 										}
-										
 									]
 								}
 							},
@@ -1310,23 +1308,22 @@
 								"label": "NUTRITION_PLAN",
 								"spl": {
 									"type": "CONTAINER",
-									"subType": "COLUMN",
-									"renderBackground": true,
-									"key": "nutritionPlanRecord",
+									"subType": "LIST",
+									"key": "macronutrientBreakdownList",
+									"renderKey": "macronutrientBreakdown",
+									"includeSeparationLine": true,
+									"floatButton": true,
+									"actions": [
+										"ADD",
+										"DELETE",
+										"EDIT"
+									],
 									"elements": [
 										{
 											"type": "CONTAINER",
-											"subType": "LIST",
-											"key": "macronutrientBreakdownList",
-											"renderKey": "macronutrientBreakdown",
-											"includeSeparationLine": true,
-											"floatButton": true,
-											"actions": [
-												"ADD",
-												"DELETE",
-												"EDIT",
-												"HIDE"
-											],
+											"subType": "COLUMN",
+											"renderBackground": true,
+											"key": "nutritionPlanRecord",
 											"elements": [
 												{
 													"type": "CONTAINER",
