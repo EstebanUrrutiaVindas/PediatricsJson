@@ -240,7 +240,8 @@
 										"SORT",
 										"ADD",
 										"DELETE",
-										"EDIT"
+										"EDIT",
+										"HIDE"
 									],
 									"floatButton": true,
 									"elements": [
@@ -822,6 +823,7 @@
 																"DELETE"
 															],
 															"includeSeparationLine": true,
+															"disableScroll": true,
 															"elements": [
 																{
 																	"type": "INPUT",
@@ -872,6 +874,7 @@
 																"DELETE"
 															],
 															"includeSeparationLine": true,
+															"disableScroll": true,
 															"elements": [
 																{
 																	"type": "INPUT",
@@ -922,6 +925,7 @@
 																"DELETE"
 															],
 															"includeSeparationLine": true,
+															"disableScroll": true,
 															"elements": [
 																{
 																	"type": "INPUT",
@@ -1024,6 +1028,7 @@
 																	"key": "prefferedFoodsInputsList",
 																	"renderKey": "prefferedFoodsInputs",
 																	"includeSeparationLine": true,
+																	"disableScroll": true,
 																	"actions": [
 																		"ADD",
 																		"DELETE"
@@ -1059,6 +1064,7 @@
 																	"key": "dislikedFoodsInputsList",
 																	"renderKey": "dislikedFoodsInputs",
 																	"includeSeparationLine": true,
+																	"disableScroll": true,
 																	"actions": [
 																		"ADD",
 																		"DELETE"
@@ -1094,6 +1100,7 @@
 																	"key": "foodIntolerancesInputsList",
 																	"renderKey": "foodIntolerancesInputs",
 																	"includeSeparationLine": true,
+																	"disableScroll": true,
 																	"actions": [
 																		"ADD",
 																		"DELETE"
@@ -1131,10 +1138,12 @@
 															"key": "typicalIntakeList",
 															"renderKey": "typicalIntake",
 															"includeSeparationLine": false,
+															"disableScroll": true,
 															"actions": [
 																"ADD",
 																"DELETE",
-																"EDIT"
+																"EDIT",
+																"HIDE"
 															],
 															"elements": [
 																{
@@ -1211,6 +1220,7 @@
 																					"key": "dishesInputsList",
 																					"renderKey": "dishesInputs",
 																					"includeSeparationLine": false,
+																					"disableScroll": true,
 																					"actions": [
 																						"ADD",
 																						"DELETE",
@@ -1321,7 +1331,8 @@
 										"SORT",
 										"ADD",
 										"DELETE",
-										"EDIT"
+										"EDIT",
+										"HIDE"
 									],
 									"elements": [
 										{
