@@ -1570,24 +1570,6 @@
 																				"textAlign": "center",
 																				"display": "block"
 																			}
-																		},
-																		{
-																			"type": "INFO",
-																			"subType": "MATH_CALC",
-																			"keys": [
-																				"nutrientG/KG",
-																				"carbohydratesG/KG",
-																				"proteinsG/KG",
-																				"fatsG/KG"
-																			],
-																			"equation": "p0 + p1 + p2 + p3",
-																			"label": "G/KG_TOTAL",
-																			"style": {
-																				"minWidth": "50px",
-																				"maxWidth": "150px",
-																				"textAlign": "center",
-																				"display": "block"
-																			}
 																		}
 																	]
 																}
@@ -1620,6 +1602,7 @@
 																	"type": "INPUT",
 																	"subType": "TEXT",
 																	"entry": "NUMERIC",
+																	"decimal": true,
 																	"key": "activityFactor",
 																	"label": "ACTIVITY_FACTOR",
 																	"style": {
