@@ -1012,6 +1012,16 @@
 																"maxWidth": "190px"
 															}
 														}
+														,{
+															"type": "INFO",
+															"subType": "NUMERIC_INFO",
+															"key": "caloriesSum",
+															"label": "TOTAL_CALORIES",
+															"style": {
+																"minWidth": "90px",
+																"maxWidth": "110px"
+															}
+														}
 													]
 												},
 												{
@@ -1293,16 +1303,6 @@
 																					},
 																					"elements": [
 																						{
-																							"type": "INFO",
-																							"subType": "NUMERIC_INFO",
-																							"key": "caloriesSum",
-																							"label": "TOTAL_CALORIES",
-																							"style": {
-																								"minWidth": "90px",
-																								"maxWidth": "110px"
-																							}
-																						},
-																						{
 																							"type": "INPUT",
 																							"subType": "MULTILINE",
 																							"key": "consultNotes",
@@ -1391,53 +1391,6 @@
 																"maxWidth": "410px"
 															},
 															"elements": [
-																{
-																	"type": "CONTAINER",
-																	"subType": "ROW",
-																	"flexConfiguration": {
-																		"gap": 8,
-																		"display": "flex"
-																	},
-																	"elements": [
-																		{
-																			"type": "INFO",
-																			"subType": "STATIC_LABEL",
-																			"key": "nutrient",
-																			"text": "NUTRIENT",
-																			"fontType": "Label",
-																			"style": {
-																				"minWidth": "100px",
-																				"maxWidth": "150px",
-																				"textAlign": "center",
-																				"display": "block"
-																			}
-																		},
-																		{
-																			"type": "INPUT",
-																			"subType": "TEXT",
-																			"entry": "NUMERIC",
-																			"decimal": true,
-																			"key": "nutrientGoal",
-																			"label": "GOAL",
-																			"style": {
-																				"minWidth": "50px",
-																				"maxWidth": "150px"
-																			}
-																		},
-																		{
-																			"type": "INPUT",
-																			"subType": "TEXT",
-																			"entry": "NUMERIC",
-																			"decimal": true,
-																			"key": "nutrientG/KG",
-																			"label": "g/kg",
-																			"style": {
-																				"minWidth": "50px",
-																				"maxWidth": "150px"
-																			}
-																		}
-																	]
-																},
 																{
 																	"type": "CONTAINER",
 																	"subType": "ROW",
