@@ -1,6 +1,5 @@
 {
-	"id": "415671a0-81e4-443e-a2c3-ebca5cba58da",
-	"devVersion": "true",
+	"id": "415671a0-8-443e-a2c3-ebca5cba599999",
 	"name": "Nutritionist",
 	"scope": "Medicine",
 	"version": "1.5",
@@ -22,7 +21,7 @@
 					"label": "PATIENTS",
 					"goTo": "Records",
 					"mfeConfig": {
-						"id": "081e837d-88e5-4b33-a810-bd505df6e78c",
+						"id": "a9249ca8-b779-417f-87fe-a3bd450c839d",
 						"name": "PATIENTS",
 						"singularName": "PATIENT",
 						"icons": {
@@ -362,7 +361,7 @@
 																			"entry": "NUMERIC",
 																			"decimal": true,
 																			"key": "muscleMassTotal",
-																			"suffix": "%",
+																			"suffix": "kg",
 																			"label": "TOTAL",
 																			"style": {
 																				"maxHeight": "40px"
@@ -374,7 +373,7 @@
 																			"entry": "NUMERIC",
 																			"decimal": true,
 																			"key": "muscleMassRightArm",
-																			"suffix": "%",
+																			"suffix": "kg",
 																			"label": "RIGHT_ARM",
 																			"style": {
 																				"maxHeight": "40px"
@@ -386,7 +385,7 @@
 																			"entry": "NUMERIC",
 																			"decimal": true,
 																			"key": "muscleMassLeftArm",
-																			"suffix": "%",
+																			"suffix": "kg",
 																			"label": "LEFT_ARM",
 																			"style": {
 																				"maxHeight": "40px"
@@ -405,7 +404,7 @@
 																			"entry": "NUMERIC",
 																			"decimal": true,
 																			"key": "muscleMassRightLeg",
-																			"suffix": "%",
+																			"suffix": "kg",
 																			"label": "RIGHT_LEG",
 																			"style": {
 																				"maxHeight": "40px"
@@ -417,7 +416,7 @@
 																			"entry": "NUMERIC",
 																			"decimal": true,
 																			"key": "muscleMassLeftLeg",
-																			"suffix": "%",
+																			"suffix": "kg",
 																			"label": "LEFT_LEG",
 																			"style": {
 																				"maxHeight": "40px"
@@ -429,7 +428,7 @@
 																			"entry": "NUMERIC",
 																			"decimal": true,
 																			"key": "muscleMassTrunk",
-																			"suffix": "%",
+																			"suffix": "kg",
 																			"label": "TRUNK",
 																			"style": {
 																				"maxHeight": "40px"
@@ -546,7 +545,7 @@
 																			"entry": "NUMERIC",
 																			"decimal": true,
 																			"key": "wristCircumference",
-																			"suffix": "%",
+																			"suffix": "cm",
 																			"label": "WRIST_CIRCUMFERENCE",
 																			"style": {
 																				"maxHeight": "40px"
@@ -558,7 +557,7 @@
 																			"entry": "NUMERIC",
 																			"decimal": true,
 																			"key": "abdominalCircumference",
-																			"suffix": "%",
+																			"suffix": "cm",
 																			"label": "ABDOMINAL_CIRCUMFERENCE",
 																			"style": {
 																				"maxHeight": "40px"
@@ -570,6 +569,7 @@
 																			"entry": "NUMERIC",
 																			"decimal": true,
 																			"key": "boneMass",
+																			"suffix": "kg",
 																			"label": "BONE_MASS",
 																			"style": {
 																				"maxHeight": "40px"
@@ -676,82 +676,100 @@
 													},
 													"elements": [
 														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "NUMERIC",
-															"decimal": true,
-															"key": "glucose",
-															"label": "GLUCOSE",
-															"style": {
-																"maxHeight": "40px"
-															}
+															"type": "CONTAINER",
+															"subType": "ROW",
+															"flexConfiguration": {
+																"gap": 8,
+																"display": "flex"
+															},
+															"elements": [
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"decimal": true,
+																	"key": "glucose",
+																	"label": "GLUCOSE",
+																	"style": {
+																		"maxHeight": "40px"
+																	}
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"decimal": true,
+																	"key": "triglycerides",
+																	"label": "TRIGLYCERIDES",
+																	"style": {
+																		"maxHeight": "40px"
+																	}
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"decimal": true,
+																	"key": "totalCholesterol",
+																	"label": "TOTAL_CHOLESTEROL",
+																	"style": {
+																		"maxHeight": "40px"
+																	}
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"decimal": true,
+																	"key": "hdlCholesterol",
+																	"label": "HDL_CHOLESTEROL",
+																	"style": {
+																		"maxHeight": "40px"
+																	}
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"decimal": true,
+																	"key": "ldlCholesterol",
+																	"label": "LDL_CHOLESTEROL",
+																	"style": {
+																		"maxHeight": "40px"
+																	}
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"decimal": true,
+																	"key": "hemoglobin",
+																	"label": "HEMOGLOBIN",
+																	"style": {
+																		"maxHeight": "40px"
+																	}
+																},
+																{
+																	"type": "INPUT",
+																	"subType": "TEXT",
+																	"entry": "NUMERIC",
+																	"decimal": true,
+																	"key": "hematocrit",
+																	"label": "HEMATOCRIT",
+																	"style": {
+																		"maxHeight": "40px"
+																	}
+																}
+															]
 														},
 														{
 															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "NUMERIC",
-															"decimal": true,
-															"key": "triglycerides",
-															"label": "TRIGLYCERIDES",
-															"style": {
-																"maxHeight": "40px"
-															}
-														},
-														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "NUMERIC",
-															"decimal": true,
-															"key": "totalCholesterol",
-															"label": "TOTAL_CHOLESTEROL",
-															"style": {
-																"maxHeight": "40px"
-															}
-														},
-														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "NUMERIC",
-															"decimal": true,
-															"key": "hdlCholesterol",
-															"label": "HDL_CHOLESTEROL",
-															"style": {
-																"maxHeight": "40px"
-															}
-														},
-														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "NUMERIC",
-															"decimal": true,
-															"key": "ldlCholesterol",
-															"label": "LDL_CHOLESTEROL",
-															"style": {
-																"maxHeight": "40px"
-															}
-														},
-														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "NUMERIC",
-															"decimal": true,
-															"key": "hemoglobin",
-															"label": "HEMOGLOBIN",
-															"style": {
-																"maxHeight": "40px"
-															}
-														},
-														{
-															"type": "INPUT",
-															"subType": "TEXT",
-															"entry": "NUMERIC",
-															"decimal": true,
-															"key": "hematocrit",
-															"label": "HEMATOCRIT",
-															"style": {
-																"maxHeight": "40px"
-															}
+															"subType": "MULTILINE",
+															"key": "consultNotes",
+															"label": "NOTES",
+															"resizeVertical": true
 														}
+
 													]
 												}
 											]
@@ -929,21 +947,13 @@
 															"elements": [
 																{
 																	"type": "INPUT",
-																	"subType": "AUTOCOMPLETE",
-																	"key": "cie",
-																	"label": "CIE-11",
-																	"sources": [
-																		{
-																			"type": "GET",
-																			"endpoint": "https://sp-lang.s3.us-east-2.amazonaws.com/pediatrics/CIE/cie.json"
-																		}
-																	],
+																	"subType": "TEXT",
+																	"entry": "GENERAL",
+																	"key": "medication",
+																	"label": "MEDICATION",
 																	"style": {
-																		"minWidth": "200px",
-																		"maxWidth": "350px"
-																	},
-																	"lang": "es",
-																	"showId": true
+																		"minWidth": "110px"
+																	}
 																}
 															]
 														},
