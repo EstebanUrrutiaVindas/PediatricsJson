@@ -1,5 +1,5 @@
 {
-	"id": "415671a0-8-443e-a2c3-ebca5cba599999",
+	"id": "415671a0-81e4-443e-a2c3-ebca5cba58da",
 	"name": "Nutritionist",
 	"scope": "Medicine",
 	"version": "1.5",
@@ -9,7 +9,7 @@
 			"label": "HOME",
 			"goTo": "Home",
 			"mfeConfig": {
-				"id": "ebd71b1e-8ac8-4a09-8b97-3848d93eba71",
+				"id": "081e837d-88e5-4b33-a810-bd505df6e78c",
 				"name": "home"
 			}
 		},
